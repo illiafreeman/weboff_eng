@@ -2292,8 +2292,18 @@ video{
             height: 24px; 
         }
     }
+    &__desc{
+        color: #272727;
+        text-align: center;
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 134%; /* 64.32px */
+        text-transform: uppercase; 
+        text-align: center;
+        margin-bottom: 48px;
+    }
     .formwrap{
-        padding: 0 40px 40px;
+        padding: 120px 68px;
         .input{
             
         }

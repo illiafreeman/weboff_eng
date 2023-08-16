@@ -110,3 +110,4 @@ $('.modal-bg').on('click', function (e) {
 	$('.modal').removeClass('vis');
 
 });
+$("#phone").mask("+7 (999) 999-99-99");
