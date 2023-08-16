@@ -104,10 +104,21 @@ function modal() {
 }
 $('h1').click(modal);
 
+$('.modal').on('click', function (e) {
+	e.stopPropagation();
+});
+
 $('.modal-wrap, .modal__close').on('click', function (e) {
 	$('body').removeClass('oh');
 	$('.modal-bg').removeClass('vis');
 	$('.modal-wrap').removeClass('vis');
 
 });
+
+$(document).click(function(event) {
+	if (!$(event.target).closest(".modal").length) {
+	  //$("body").find(".modal-wrap").removeClass("vis");
+	}
+});
+
 $("#phone").mask("+7 (999) 999-99-99");
