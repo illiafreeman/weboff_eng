@@ -665,21 +665,33 @@ template {
 }
 
 .intro__header {
-  max-width: 748px;
+  max-width: 690px;
   margin: 0 0 28px 0;
   padding: 0;
-  font-size: 80px;
-  line-height: 90px;
-}
-.intro__header span {
-  color: #FFD508;
-}
-.intro__header_project {
-  font-size: 68px;
-  line-height: 78px;
+  font-size: 62px;
+  line-height: 74px;
   text-transform: uppercase;
-  max-width: none;
+  margin-bottom: 0;
+}
+
+.intro__subheader {
+  color: #FFF;
+  font-size: 51px;
+  font-style: normal;
   font-weight: 700;
+  line-height: 74px;
+  text-transform: uppercase;
+  margin: 0 0 16px;
+}
+
+.intro__text {
+  color: #FFD508;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 54px;
+  width: 460px;
 }
 
 .intro__header_display-none {
@@ -700,15 +712,6 @@ template {
   background-position: left 79% top 399px;
   background-size: auto auto;
   position: relative;
-}
-
-.intro__text {
-  max-width: 574px;
-  margin: 0;
-  padding: 0;
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 30px;
 }
 
 .intro__text_bold {
@@ -2455,7 +2458,8 @@ video {
   right: 0;
   bottom: 0;
   left: 0;
-  background: #0B1823;
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(60px);
   transition: all 1s ease-in-out;
   opacity: 0;
   visibility: hidden;
@@ -2466,33 +2470,31 @@ video {
 }
 
 .modal-bg.vis {
-  opacity: 0.5;
+  opacity: 1;
   visibility: visible;
 }
 
 .modal.vis {
   opacity: 1;
   visibility: visible;
+  transform: translate(-50%, -50%);
 }
 
 .modal {
-  width: 414px;
+  width: 780px;
   background: #fff;
   top: 50%;
   left: calc(50% - 17px);
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -60%);
   position: fixed;
   opacity: 0;
   visibility: hidden;
   overflow-x: hidden;
   overflow-y: auto;
   z-index: 10000;
-  border-radius: 3px;
-  border: 1px solid rgba(0, 174, 229, 0.3);
-  box-shadow: 8px 8px 0px 0px rgba(0, 97, 141, 0.2);
-}
-.modal__inner {
-  border: 1px dashed #00AEE5;
+  border-radius: 75px;
+  box-shadow: 0px 0px 69px 5px #fff;
+  transition: all 0.5s ease-in-out;
 }
 .modal .formwrap {
   padding: 0 40px 40px;
@@ -2512,6 +2514,10 @@ video {
 
 .oh {
   overflow: hidden !important;
+}
+
+body.oh {
+  padding-right: 17px;
 }
 
 /*!
