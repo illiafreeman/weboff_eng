@@ -2429,6 +2429,91 @@ video {
   cursor: default;
 }
 
+.btn {
+  height: 74px;
+  border-radius: 40px;
+  background: #65DBBD;
+  padding: 40px;
+  color: #272727;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 34px;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+.btn:hover {
+  background: #ffd508;
+}
+
+.modal-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #0B1823;
+  transition: all 1s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-right: 17px;
+  z-index: 10000;
+}
+
+.modal-bg.vis {
+  opacity: 0.5;
+  visibility: visible;
+}
+
+.modal.vis {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal {
+  width: 414px;
+  background: #fff;
+  top: 50%;
+  left: calc(50% - 17px);
+  transform: translate(-50%, -50%);
+  position: fixed;
+  opacity: 0;
+  visibility: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: 10000;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 174, 229, 0.3);
+  box-shadow: 8px 8px 0px 0px rgba(0, 97, 141, 0.2);
+}
+.modal__inner {
+  border: 1px dashed #00AEE5;
+}
+.modal .formwrap {
+  padding: 0 40px 40px;
+}
+.modal .formwrap .btn {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 26px;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 13px; /* 100% */
+  letter-spacing: -0.65px;
+  border: 0;
+  padding: 0;
+}
+
+.oh {
+  overflow: hidden !important;
+}
+
 /*!
 * animate.css - https://animate.style/
 * Version - 4.1.1
