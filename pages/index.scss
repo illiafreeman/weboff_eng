@@ -826,20 +826,29 @@ $transition05: all 0.5s ease-in-out;
 
 .offer__title {
     color: #272727;
-    font-size: 78px;
+    font-size: 46px;
     font-weight: 700;
-    line-height: 88px;
+    line-height: 76px;
     text-transform: uppercase;
-    margin: 0 0 28px 0;
-    padding: 0
+    margin: 0;
+    padding: 0;
+    &_adv{
+        font-size: 78px; 
+        line-height: 90px;
+        strong{
+            font-weight: 700; 
+        }
+    }
+
 }
 
 .offer__text {
     color: #272727;
-    font-size: 24px;
+    font-size: 23px;
+    font-style: normal;
     font-weight: 500;
-    line-height: 34px;
-    margin: 0;
+    line-height: 32px;
+    margin: 16px 0 0;
     padding: 0;
     max-width: 530px
 }
@@ -2363,12 +2372,6 @@ body.oh {
 }
 
 
-
-We create branding: logo, colors, fonts. With regard to the values and mission of the brand
-
-We create user-friendly design in Figma, so your clients trust it and could buy a product in 3 steps
-
-We make design for phone, desctop and migrate it on Wordpress. 
 
 
 
