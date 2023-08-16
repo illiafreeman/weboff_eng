@@ -1,0 +1,13 @@
+.team__picture {
+  width: 100%;
+  border-radius: 50%;
+  max-width: 271px;
+  margin: 0 auto 0;
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .team__picture {
+    max-width: 164px;
+  }
+}

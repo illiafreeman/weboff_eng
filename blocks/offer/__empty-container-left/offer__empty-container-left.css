@@ -1,0 +1,11 @@
+.offer__empty-container-left {
+  position: relative;
+  margin: 78px 0;
+  width: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .offer__empty-container-left {
+    display: none;
+  }
+}

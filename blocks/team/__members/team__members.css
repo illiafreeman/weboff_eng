@@ -1,0 +1,12 @@
+.team__members {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 0 102px;
+}
+
+@media screen and (max-width: 768px) {
+  .team__members {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+}

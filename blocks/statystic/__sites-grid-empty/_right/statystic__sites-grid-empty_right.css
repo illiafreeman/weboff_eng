@@ -1,0 +1,21 @@
+.statystic__sites-grid-empty_right {
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  min-width: 217px;
+  min-height: 18px;
+  margin-top: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .statystic__sites-grid-empty_right {
+    min-width: 150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .statystic__sites-grid-empty_right {
+    min-width: 140px;
+    min-height: 12px;
+  }
+}

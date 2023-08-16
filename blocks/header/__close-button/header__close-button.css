@@ -1,0 +1,23 @@
+.header__close-button {
+  display: none;
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  background-color: transparent;
+  border: none;
+  background-image: url(../../../images/close_button.png);
+  background-repeat: no-repeat;
+  top: 23px;
+  right: 6.3%;
+}
+
+.header__close-button:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 769px) {
+  .header__close-button {
+    display: none;
+  }
+}
+

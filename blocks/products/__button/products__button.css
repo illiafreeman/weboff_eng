@@ -1,0 +1,32 @@
+.products__button {
+  padding: 18px 64px;padding: 18px 64px;
+  margin: 66px 0 74px 118px;
+  max-width: 379px;
+  /* min-height: 74px; */
+  background-color: #FFF;
+  border-radius: 26px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 34px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #272727;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.products__button:hover {
+  background-color: #FFD508;
+  transition: background-color .5s;
+}
+
+@media screen and (max-width: 768px) {
+  .products__button {
+    margin: 4px 6.3% 32px;
+    max-width: 280px;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 17px 41px;
+  }
+}

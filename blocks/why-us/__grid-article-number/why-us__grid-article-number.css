@@ -1,0 +1,12 @@
+.why-us__grid-article-number {
+  margin: 0;
+  padding: 0;
+  grid-area: number;
+  max-height: 105px;
+}
+
+@media screen and (max-width: 768px) {
+  .why-us__grid-article-number {
+    max-height: 55px;
+  }
+}

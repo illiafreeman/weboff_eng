@@ -1,0 +1,16 @@
+.projects__title {
+  display: inline-block;
+  margin: 82px 0 62px 118px;
+  font-size: 78px;
+  font-weight: 700;
+  line-height: 88px;
+  color: #FFF;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+  .projects__title {
+    font-size: 24px;
+    line-height: 28px;
+    margin: 32px 6.3% 38px;
+  }
+}

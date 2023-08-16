@@ -1,0 +1,11 @@
+.offer__list-container {
+  padding: 0;
+  margin: 87px 0 0;
+  max-width: 425px;
+}
+
+@media screen and (max-width: 768px) {
+  .offer__list-container {
+    margin: 14px 6.3% 32px;
+  }
+}

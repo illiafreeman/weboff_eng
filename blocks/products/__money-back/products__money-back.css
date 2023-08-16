@@ -1,0 +1,14 @@
+.products__money-back {
+  position: absolute;
+  top: 48px;
+  right: 10%;
+}
+
+@media screen and (max-width: 768px) {
+  .products__money-back {
+    max-width: 73px;
+    max-height: 73px;
+    top: 22px;
+    right: 6.3%;
+  }
+}

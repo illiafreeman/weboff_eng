@@ -1,0 +1,17 @@
+.content__projects {
+  margin: 36px 0 82px;
+  padding: 66px 0 0;
+  background-image: url('../../../images/back_projects_yellow.png');
+  background-repeat: no-repeat;
+  background-position: left 76% top 0;
+}
+
+@media screen and (max-width: 768px) {
+  .content__projects {
+    padding: 62px 0;
+    margin: 0;
+    background-image: url('../../../images/back_projects_red_mobile.png'),
+                      url('../../../images/back_projects_yellow_mobile.png');
+    background-position: right 8% top 5px, right 0 bottom 10px;
+  }
+}

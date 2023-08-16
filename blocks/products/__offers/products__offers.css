@@ -1,0 +1,12 @@
+.products__offers {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 97px 0 118px;
+}
+
+@media screen and (max-width: 768px) {
+  .products__offers{
+    margin: 0 6.3% 0;
+    flex-direction: column;
+  }
+}

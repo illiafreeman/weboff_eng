@@ -1,0 +1,12 @@
+.offer__empty-container-right {
+  margin: 78px 0;
+  width: 40px;
+  border: 3px solid #272727;
+  border-right: none;
+}
+
+@media screen and (max-width: 768px) {
+  .offer__empty-container-right {
+    display: none;
+  }
+}

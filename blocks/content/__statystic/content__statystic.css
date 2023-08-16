@@ -1,0 +1,21 @@
+.content__statystic {
+  margin: 0;
+  padding: 104px 133px 102px 130px;
+  background-image: url('../../../images/back_statystic_yellow.png'),
+                    url('../../../images/back_statystic_green.png'),
+                    url('../../../images/back_statystic_red.png');
+  background-repeat: no-repeat;
+  background-position: left 0 top 364px, left 40% top 46px, left 95% bottom 72px;
+  /* background-size: auto auto; */
+}
+
+@media screen and (max-width: 768px) {
+  .content__statystic {
+    padding: 62px 6.3%;
+    background-image: url('../../../images/back_statystic_red_top_mobile.png'),
+                      url('../../../images/back_statystic_green_mobile.png'),
+                      url('../../../images/back_statystic_yellow_mobile.png'),
+                      url('../../../images/back_statystic_red_bottom_mobile.png');
+    background-position: right 0 top 29px, left 14% top 245px, right 7% top 404px, left 4% bottom 25px;
+  }
+}

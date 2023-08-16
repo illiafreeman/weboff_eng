@@ -1,0 +1,21 @@
+.running-line__text {
+  text-transform: uppercase;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 68px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  -webkit-text-fill-color: #272727;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #FFF;
+}
+
+
+@media screen and (max-width: 768px) {
+  .running-line__text {
+    font-size: 16px;
+    line-height: 18px;
+    -webkit-text-stroke-width: 0.5px;
+  }
+}

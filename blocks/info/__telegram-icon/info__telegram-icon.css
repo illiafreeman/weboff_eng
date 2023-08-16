@@ -1,0 +1,19 @@
+.info__telegram-icon {
+ width: 40px;
+ height: 40px;
+ background-image: url(../../../images/Telegram.png);
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+.info__telegram-icon:hover {
+  background-image: url(../../../images/Telegram_hover.png);
+  transition: background-image .3s;
+}
+
+@media screen and (max-width: 768px) {
+  .info__telegram-icon {
+    width: 20px;
+    height: 20px;
+  }
+}

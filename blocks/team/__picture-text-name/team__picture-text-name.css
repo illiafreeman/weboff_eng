@@ -1,0 +1,17 @@
+.team__picture-text-name {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34PX;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 26px 0 5px;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .team__picture-text-name {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 18px 0 10px;
+  }
+}

@@ -1,0 +1,16 @@
+.team__member {
+  margin: 0;
+  padding: 0;
+  flex-grow: 1;
+  flex-basis: 271px;
+}
+
+@media screen and (max-width: 768px) {
+  .team__member {
+    flex-basis: 0;
+    margin-bottom: 28px;
+  }
+  .team__member:last-of-type {
+    margin-bottom: 0;
+  }
+}

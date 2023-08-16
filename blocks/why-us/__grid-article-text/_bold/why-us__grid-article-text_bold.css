@@ -1,0 +1,12 @@
+  .why-us__grid-article-text_bold {
+  font-size: 24px;
+  font-weight: 700;
+  color: #FFD508;
+}
+
+@media screen and (max-width: 768px) {
+  .why-us__grid-article-text_bold {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

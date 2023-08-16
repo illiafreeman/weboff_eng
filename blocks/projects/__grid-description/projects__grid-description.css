@@ -1,0 +1,18 @@
+.projects__grid-description {
+  padding: 0;
+  margin: 0 auto 0;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 34px;
+  max-width: 292px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .projects__grid-description {
+    margin: 18px auto 0;
+    font-size: 14px;
+    line-height: 16px;
+    max-width: 185px;
+  }
+}

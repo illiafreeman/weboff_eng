@@ -1,0 +1,17 @@
+.products__price {
+  margin: 18px 0 10px;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .products__price {
+    font-size: 18px;
+    line-height: 20px;
+    margin: 10px 0 18px;
+  }
+}

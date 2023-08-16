@@ -1,0 +1,24 @@
+.header__burger {
+  display:inline-block;
+  position: absolute;
+  width: 28px;
+  height: 23px;
+  background-color: transparent;
+  border: none;
+  background-image: url(../../../images/Burger.png);
+  background-repeat: no-repeat;
+  top: 23px;
+  right: 6.3%;
+}
+
+.header__burger:hover {
+  background-image: url(../../../images/Burger_hover.png);
+  cursor: pointer;
+  transition: background-image .3s;
+}
+
+@media screen and (min-width: 769px) {
+  .header__burger {
+    display: none;
+  }
+}

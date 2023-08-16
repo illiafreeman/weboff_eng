@@ -1,0 +1,15 @@
+.statystic__web-agency-title {
+  margin: 0 0 8px 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 34px;
+}
+
+@media screen and (max-width: 768px) {
+  .statystic__web-agency-title {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}

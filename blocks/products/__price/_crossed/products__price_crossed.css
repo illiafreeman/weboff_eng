@@ -1,0 +1,10 @@
+.products__price_crossed {
+  color: #272727;
+  text-decoration: line-through;
+}
+
+@media screen and (max-width: 768px) {
+  .products__price_crossed {
+    margin-right: 28px;
+  }
+}

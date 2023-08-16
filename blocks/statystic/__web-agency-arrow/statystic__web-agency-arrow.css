@@ -1,0 +1,14 @@
+.statystic__web-agency-arrow {
+  object-fit: contain;
+  max-width: 275px;
+  margin: 0 52px 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  .statystic__web-agency-arrow {
+    max-width: 65px;
+    object-fit: none;
+    object-position: right top;
+    margin-right: 18px;
+  }
+}

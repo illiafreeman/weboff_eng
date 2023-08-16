@@ -1,0 +1,16 @@
+.team__picture-education {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #FFD508;
+  text-align: center;
+  margin: 24px 0 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .team__picture-education {
+    font-size: 12px;
+    line-height: 14px;
+    margin: 24px 0 14px;
+  }
+}
