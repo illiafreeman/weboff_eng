@@ -2270,7 +2270,28 @@ video{
     z-index: 10000;
     border-radius: 75px;
     box-shadow: 0px 0px 69px 5px #fff;
-    transition: $transition05;
+    //transition: $transition;
+    &__close{
+        width: 30px;
+        height: 30px;
+        //background: #fff url(../images/close.svg) center center no-repeat;
+        border-radius: 16px;
+        position: absolute;
+        top: 47px;
+        right: 58px;
+        cursor: pointer;
+        transition: $transition05;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &:hover{
+            transform: rotate(180deg);
+        }
+        svg{
+            width: 24px;
+            height: 24px; 
+        }
+    }
     .formwrap{
         padding: 0 40px 40px;
         .input{
