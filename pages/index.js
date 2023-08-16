@@ -104,10 +104,10 @@ function modal() {
 }
 $('h1').click(modal);
 
-$('.modal-wrap').on('click', function (e) {
+$('.modal-wrap, .modal__close').on('click', function (e) {
 	$('body').removeClass('oh');
 	$('.modal-bg').removeClass('vis');
-	$('.modal').removeClass('vis');
+	$('.modal-wrap').removeClass('vis');
 
 });
 $("#phone").mask("+7 (999) 999-99-99");

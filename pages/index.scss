@@ -2227,8 +2227,15 @@ video{
     justify-content: center;
     text-decoration: none;
     transition: $transition;
+    cursor: pointer;
     &:hover{
         background: #ffd508; 
+    }
+    &_yellow{
+        background: #ffd508;
+        &:hover{
+            background: #65DBBD; 
+        }
     }
 }
 .modal-bg {
@@ -2263,7 +2270,8 @@ video{
     right: 0;
     bottom: 0;
     left: 0;
-    transition: $transition;
+    padding-bottom: 100px;
+    //transition: $transition;
     &.vis {
         opacity: 1;
         visibility: visible;
@@ -2342,13 +2350,6 @@ video{
         
         .btn{
             width: 100%;
-            margin-bottom: 20px;
-            height: 26px;
-            font-size: 13px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 13px; /* 100% */
-            letter-spacing: -0.65px; 
             border: 0;
             padding: 0;
         }
