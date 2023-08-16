@@ -100,11 +100,11 @@
 function modal() {
 	$('body').addClass('oh');
 	$('.modal-bg').addClass('vis');
-	$('.modal').addClass('vis');
+	$('.modal-wrap').addClass('vis');
 }
 $('h1').click(modal);
 
-$('.modal-bg').on('click', function (e) {
+$('.modal-wrap').on('click', function (e) {
 	$('body').removeClass('oh');
 	$('.modal-bg').removeClass('vis');
 	$('.modal').removeClass('vis');

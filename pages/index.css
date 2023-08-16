@@ -2466,7 +2466,7 @@ video {
   overflow-x: hidden;
   overflow-y: auto;
   padding-right: 17px;
-  z-index: 10000;
+  z-index: 100;
 }
 
 .modal-bg.vis {
@@ -2474,24 +2474,32 @@ video {
   visibility: visible;
 }
 
-.modal.vis {
-  opacity: 1;
-  visibility: visible;
-  transform: translate(-50%, -50%);
-}
-
-.modal {
-  width: 780px;
-  background: #fff;
-  top: 50%;
-  left: calc(50% - 17px);
-  transform: translate(-50%, -60%);
+.modal-wrap {
   position: fixed;
   opacity: 0;
   visibility: hidden;
   overflow-x: hidden;
   overflow-y: auto;
-  z-index: 10000;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: all 0.2s ease-in-out;
+}
+.modal-wrap.vis {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal {
+  width: 780px;
+  background: #fff;
+  transform: translate(-50%, 0);
+  left: calc(50% - 17px);
+  position: absolute;
+  top: 50px;
+  z-index: 2000;
   border-radius: 75px;
   box-shadow: 0px 0px 69px 5px #fff;
 }
@@ -2527,6 +2535,32 @@ video {
 }
 .modal .formwrap {
   padding: 120px 68px;
+}
+.modal .formwrap label {
+  display: block;
+  margin-bottom: 34px;
+}
+.modal .formwrap label span {
+  color: #272727;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  display: block;
+  margin-bottom: 14px;
+}
+.modal .formwrap label span small {
+  font-size: 100%;
+  color: #929292;
+}
+.modal .formwrap label .input {
+  border-radius: 75px;
+  border: 1px solid #272727;
+  background: #FFF;
+  height: 74px;
+  padding: 0 40px;
+  width: 100%;
+  outline: none;
+  font-size: 20px;
 }
 .modal .formwrap .btn {
   width: 100%;
