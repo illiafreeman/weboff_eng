@@ -147,7 +147,6 @@ function openSubmitPopup(bool) {
 		
 		
 	});
-	$("#phone").mask("+7 (999) 999-99-99");
 	$('#slick').slick({     
         slidesToShow: 2,
         dots: true,

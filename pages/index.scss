@@ -314,7 +314,7 @@ $transition: all 0.2s ease-in-out;
     color: #fff;
     text-decoration: none;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 22px;
     display: block;
     position: relative;
@@ -2188,7 +2188,28 @@ video{
     // Remove outline
     outline: none;
 }
+.lang{
+    display: flex;
+    margin-right: 76px;
+    span{
+        padding: 0 5px;
+        color: #FFD508;
+    }
+    a{
+        color: #FFD508;
+        text-decoration: underline;
+        position: static;
+        cursor: pointer;
+        &:hover{
+            text-decoration: none;
+        }
+        &.act{
+            text-decoration: none;
+            cursor: default;
 
+        }
+    }
+}
 
 
 
