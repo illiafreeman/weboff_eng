@@ -936,7 +936,7 @@ $transition05: all 0.5s ease-in-out;
     background-repeat: no-repeat;
     background-position: 90% 38px;
     .container{
-        padding: 102px 172px 102px 130px;
+        padding: 102px 130px;
     }
 }
 
@@ -2059,7 +2059,7 @@ video{
 }
 .content__comment{
     position: relative;
-    margin: 0 12px 82px;
+    margin: 0 12px;
     padding: 1px 0 152px;
     background-color: #FFD508;
     border-radius: 75px;
@@ -2493,6 +2493,7 @@ body.oh {
 }
 .tag {
     padding: 0 130px;
+    margin-bottom: 104px;
     &__list {
         gap: 26px;
         display: flex;
@@ -2509,7 +2510,7 @@ body.oh {
         color: #FFF;
         font-size: 21px;
         font-weight: 500;
-        line-height: 34px; /* 161.905% */
+        line-height: 34px;
         text-transform: uppercase; 
     }
 }
@@ -2518,7 +2519,7 @@ body.oh {
     color: #FFF;
     font-size: 78px;
     font-weight: 700;
-    line-height: 88px; /* 112.821% */
+    line-height: 112%;
     text-transform: uppercase; 
     margin: 0 0 70px;
 }
