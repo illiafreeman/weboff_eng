@@ -1063,8 +1063,10 @@ template {
 }
 
 .offer__we-offer {
-  margin: 145px 55px 145PX 118px;
+  margin: 0 112px;
   max-width: 580px;
+  display: flex;
+  align-items: center;
 }
 
 .offer__title {
@@ -1109,7 +1111,7 @@ template {
 }
 
 .offer__empty-container-right {
-  margin: 78px 0;
+  margin: 54px 0;
   width: 40px;
   border: 3px solid #272727;
   border-right: none;
@@ -1125,7 +1127,7 @@ template {
 
 .offer__list-container {
   padding: 0;
-  margin: 87px 0 0;
+  margin: 70px 0 70px 10px;
   max-width: 425px;
 }
 
@@ -1136,11 +1138,11 @@ template {
 }
 
 .offer__list:first-of-type {
-  margin-bottom: 28px;
+  margin-bottom: 26px;
 }
 
 .offer__list-title {
-  margin: 0 0 16px;
+  margin: 0 0 10px;
   padding: 0;
   color: #272727;
   font-size: 24px;
@@ -1155,7 +1157,7 @@ template {
   font-weight: 500;
   line-height: 22px;
   margin-left: 22px;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
 }
 
 .offer__list-item::before {
