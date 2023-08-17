@@ -2523,6 +2523,35 @@ body.oh {
     margin: 0 0 70px;
 }
 
+.cat {
+    border-radius: 75px;
+    background: #FFF; 
+    padding: 82px 117px;
+    margin-bottom: 102px;
+    position: relative;
+    color: #272727; 
+    &__title {
+        color: #272727; 
+        margin-bottom: 26px;
+    }
+    &__desc {
+        color: #272727;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: normal; 
+        margin-bottom: 54px;
+    }
+    &__cat {
+        position: absolute;
+        bottom: -81px;
+        right: 100px;
+    }
+}
+
+.section-title {
+}
+.btn {
+}
 
 
 
