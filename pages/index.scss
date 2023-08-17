@@ -2029,7 +2029,7 @@ video{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 118px 12px 0;
+    margin: 0 118px 0 0;
     img{
         margin-left: 20px;
         transition: $transition;
@@ -2043,7 +2043,7 @@ video{
 .projects__title{
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
 }
 .comment{
     .projects__title{
