@@ -2375,20 +2375,56 @@ body.oh {
 }
 .pro__grid{
     margin: 0 118px;
-    padding: 0 64px;
+    padding: 0 63px;
 }
 
 .slider {
-    &_pro {}
+    &_pro {
+        .slick-track{
+            padding-top: 5px;
+        }
+    }
 }
 .pro {
     
-    &__pic {}
-    &__pic-wrap {}
+    &__pic {
+        z-index: -1;
+    }
+    &__pic-wrap {
+        position: relative;
+        border-radius: 34px;
+        transition: $transition;
+        &:after{
+            content: '';
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.77) 100%);
+            //background: #fff;
+            top: 0px;
+            left: 0px;
+            border-radius: 32px;
+            transition: $transition;
+        }
+        &:hover{
+            
+            
+        }
+    }
     &__item {
         display: flex !important;
         flex-direction: column;
         margin: 0 15px;
+        &:hover{
+            .pro__pic-wrap{
+                box-shadow: 0px 0px 0px 4px #ffd508;
+                &:after{
+                    opacity: 0;
+                    
+                }
+            }
+        }
     }
     &__more {}
     &__res {}
