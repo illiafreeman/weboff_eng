@@ -119,7 +119,6 @@
         infinite: true,
         focusOnSelect: false,
         adaptiveHeight: true,
-		slidesToScroll: 3,
         responsive: [
             {
             breakpoint: 768,
