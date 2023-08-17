@@ -2394,6 +2394,7 @@ body.oh {
         position: relative;
         border-radius: 34px;
         transition: $transition;
+        margin-bottom: 26px;
         &:after{
             content: '';
             display: block;
@@ -2416,6 +2417,7 @@ body.oh {
         display: flex !important;
         flex-direction: column;
         margin: 0 15px;
+        text-decoration: none;
         &:hover{
             .pro__pic-wrap{
                 box-shadow: 0px 0px 0px 4px #ffd508;
@@ -2426,8 +2428,23 @@ body.oh {
             }
         }
     }
-    &__more {}
-    &__res {}
+    &__more {
+        color: #FFD508;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 34px;
+        margin: 0 0 30px;
+    }
+    &__res {
+        color: #FFF;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 30px; 
+        margin: 0;
+        strong{
+            font-weight: 700;
+        }
+    }
 }
 
 
