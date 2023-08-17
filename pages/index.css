@@ -2593,6 +2593,16 @@ body.oh {
   padding-right: 17px;
 }
 
+.pro__grid {
+  margin: 0 118px;
+  padding: 0 64px;
+}
+
+.pro__item {
+  display: flex !important;
+  flex-direction: column;
+  margin: 0 15px;
+}
 /*!
 * animate.css - https://animate.style/
 * Version - 4.1.1

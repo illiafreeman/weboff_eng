@@ -44,6 +44,30 @@
 		
 		
 	});
+	$('#pro').slick({     
+        slidesToShow: 3,
+        dots: true,
+        arrows: true,
+        centerMode: false,
+        variableWidth: false,
+        infinite: true,
+        focusOnSelect: false,
+
+        responsive: [
+            {
+            breakpoint: 1280,
+                settings: {
+                    slidesToShow: 1,
+                    dots: true,
+                    arrows: false,
+                    centerMode: true,
+                    infinite: true,
+                    //focusOnSelect: true,
+					//adaptiveHeight: true,
+				}
+            }                  
+        ]
+    });
 	$('#slick').slick({     
         slidesToShow: 2,
         dots: true,
