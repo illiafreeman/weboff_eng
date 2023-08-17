@@ -2491,6 +2491,38 @@ body.oh {
         }
     }
 }
+.tag {
+    padding: 0 130px;
+    &__list {
+        gap: 26px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 54px;
+    }
+    &__item {
+        border-radius: 75px;
+        border: 3px solid #FFD508; 
+        padding: 0 20px;
+        height: 52px;
+        display: inline-flex;
+        align-items: center;
+        color: #FFF;
+        font-size: 21px;
+        font-weight: 500;
+        line-height: 34px; /* 161.905% */
+        text-transform: uppercase; 
+    }
+}
+
+.section-title {
+    color: #FFF;
+    font-size: 78px;
+    font-weight: 700;
+    line-height: 88px; /* 112.821% */
+    text-transform: uppercase; 
+    margin: 0 0 70px;
+}
+
 
 
 
