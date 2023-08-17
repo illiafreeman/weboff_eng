@@ -2551,6 +2551,70 @@ body.oh {
         right: 100px;
     }
 }
+.price {
+    border-radius: 75px;
+    background: #65DBBD;
+    padding: 82px 117px;
+    margin-bottom: 102px;
+    position: relative;
+    color: #272727;
+    .section-title{
+        text-align: center;
+        color: #272727;
+    }
+    &__wrap {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    &__item {
+        background: #fff;
+        border-radius: 40px;
+        overflow: hidden;
+    }
+    &__head {
+        background: #FFD508;
+        padding: 14px 22px;
+    }
+    &__name {
+        margin: 0;
+        color: #272727;
+        text-align: center;
+        font-size: 32px;
+        font-weight: 700;
+        text-transform: uppercase; 
+    }
+    &__subname{
+        margin: 0;
+        color: #272727;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    &__desc {
+        
+    }
+    &__body {
+        padding: 32px 16px 24px;
+    }
+    &__for {}
+    &__list {}
+    &__foot {}
+    &__from {}
+    &__price {}
+}
+
+.gift {
+    &__pic {}
+    &__title {}
+    &__list {}
+}
+.ac {
+    text-align: center;
+}
+
 
 
 

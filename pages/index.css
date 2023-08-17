@@ -2752,6 +2752,56 @@ body.oh {
   right: 100px;
 }
 
+.price {
+  border-radius: 75px;
+  background: #65DBBD;
+  padding: 82px 117px;
+  margin-bottom: 102px;
+  position: relative;
+  color: #272727;
+}
+.price .section-title {
+  text-align: center;
+  color: #272727;
+}
+.price__wrap {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.price__item {
+  background: #fff;
+  border-radius: 40px;
+  overflow: hidden;
+}
+.price__head {
+  background: #FFD508;
+  padding: 14px 22px;
+}
+.price__name {
+  margin: 0;
+  color: #272727;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.price__subname {
+  margin: 0;
+  color: #272727;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  text-align: center;
+}
+.price__body {
+  padding: 32px 16px 24px;
+}
+.ac {
+  text-align: center;
+}
+
 /*!
 * animate.css - https://animate.style/
 * Version - 4.1.1
