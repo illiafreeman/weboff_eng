@@ -936,7 +936,7 @@ $transition05: all 0.5s ease-in-out;
     background-repeat: no-repeat;
     background-position: 90% 38px;
     .container{
-        padding: 102px 130px;
+        padding: 102px 172px 103px 130px;
     }
 }
 
@@ -1084,8 +1084,8 @@ $transition05: all 0.5s ease-in-out;
     margin: 0;
     padding: 0;
     font-size: 18px;
-    font-weight: 400;
-    line-height: 26px;
+    font-weight: 500;
+    line-height: 22px;
     grid-area: text
 }
 
@@ -1106,9 +1106,8 @@ $transition05: all 0.5s ease-in-out;
 }
 
 .why-us__grid-article-text_bold {
-    font-size: 24px;
+    color: #ffd508;
     font-weight: 700;
-    color: #ffd508
 }
 
 .special-offer {

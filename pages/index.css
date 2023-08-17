@@ -1178,7 +1178,7 @@ template {
   background-position: 90% 38px;
 }
 .content__why-us .container {
-  padding: 102px 130px;
+  padding: 102px 172px 103px 130px;
 }
 
 .stage {
@@ -1308,8 +1308,8 @@ template {
   margin: 0;
   padding: 0;
   font-size: 18px;
-  font-weight: 400;
-  line-height: 26px;
+  font-weight: 500;
+  line-height: 22px;
   grid-area: text;
 }
 
@@ -1330,9 +1330,8 @@ template {
 }
 
 .why-us__grid-article-text_bold {
-  font-size: 24px;
-  font-weight: 700;
   color: #ffd508;
+  font-weight: 700;
 }
 
 .content__special-offer {
