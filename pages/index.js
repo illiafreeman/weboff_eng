@@ -46,13 +46,22 @@
 	});
 	$('#pro').slick({     
         slidesToShow: 3,
-        dots: true,
+        dots: false,
         arrows: true,
         centerMode: false,
         variableWidth: false,
         infinite: true,
         focusOnSelect: false,
-
+		prevArrow: `<button class="slick-prev" aria-label="Previous" type="button">
+		<svg>
+			<use xlink:href="./images/sprite.svg#icon-ar"></use>
+		</svg>
+			</button>`,
+		nextArrow: `<button class="slick-next" aria-label="Next" type="button">
+				<svg>
+					<use xlink:href="./images/sprite.svg#icon-ar"></use>
+				</svg>
+			</button>`,
         responsive: [
             {
             breakpoint: 1280,
@@ -76,7 +85,16 @@
         variableWidth: false,
         infinite: true,
         focusOnSelect: false,
-
+		prevArrow: `<button class="slick-prev" aria-label="Previous" type="button">
+		<svg>
+			<use xlink:href="./images/sprite.svg#icon-ar"></use>
+		</svg>
+			</button>`,
+		nextArrow: `<button class="slick-next" aria-label="Next" type="button">
+				<svg>
+					<use xlink:href="./images/sprite.svg#icon-ar"></use>
+				</svg>
+			</button>`,
         responsive: [
             {
             breakpoint: 1280,

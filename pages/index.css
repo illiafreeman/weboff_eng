@@ -1529,6 +1529,7 @@ template {
   margin: 0 12px 0;
   border-radius: 75px;
   border: 3px solid #fff;
+  padding-bottom: 82px;
 }
 
 .projects__title {
@@ -2600,6 +2601,43 @@ body.oh {
 
 .slider_pro .slick-track {
   padding-top: 5px;
+}
+.slider_pro .slick-prev, .slider_pro .slick-next {
+  padding: 0;
+  border: 0;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 118px;
+}
+.slider_pro .slick-prev svg, .slider_pro .slick-next svg {
+  width: 17px;
+  height: 31px;
+  transition: all 0.2s ease-in-out;
+  fill: #fff;
+}
+.slider_pro .slick-prev:before, .slider_pro .slick-prev:after, .slider_pro .slick-next:before, .slider_pro .slick-next:after {
+  display: none;
+}
+.slider_pro .slick-prev:hover svg, .slider_pro .slick-next:hover svg {
+  fill: #fff;
+}
+.slider_pro .slick-next {
+  right: -65px;
+}
+.slider_pro .slick-next svg {
+  transform: rotate(180deg);
+}
+.slider_pro .slick-next:hover svg {
+  transform: rotate(180deg) translateX(-5px);
+}
+.slider_pro .slick-prev {
+  left: -65px;
+}
+.slider_pro .slick-prev:hover svg {
+  transform: translateX(-5px);
 }
 
 .pro__pic {
