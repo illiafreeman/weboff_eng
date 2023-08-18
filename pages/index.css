@@ -2779,6 +2779,7 @@ body.oh {
   display: grid;
   gap: 20px;
   grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 43px;
 }
 .price__item {
   background: #fff;
@@ -2859,6 +2860,37 @@ body.oh {
   font-weight: 700;
   line-height: 34px; /* 106.25% */
   text-transform: uppercase;
+}
+
+.gift {
+  border-radius: 40px;
+  border: 3px solid #272727;
+  background: #FFF;
+  padding: 32px 42px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.gift__pic {
+  margin-right: 40px;
+}
+.gift__title {
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 88px; /* 191.304% */
+  text-transform: uppercase;
+}
+.gift__list {
+  margin: 0;
+}
+.gift__list li {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+.gift__list li:last-child {
+  margin-bottom: 0;
 }
 
 .ac {
