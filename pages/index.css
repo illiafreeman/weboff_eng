@@ -2483,6 +2483,10 @@ video {
 .btn_yellow:hover {
   background: #65DBBD;
 }
+.btn_yellow-shadow:hover {
+  background: #ffd508;
+  box-shadow: 0 0 17px 5px #fff;
+}
 
 .modal-bg {
   position: fixed;
@@ -2870,6 +2874,7 @@ body.oh {
   display: flex;
   gap: 20px;
   align-items: center;
+  margin-bottom: 86px;
 }
 .gift__pic {
   margin-right: 40px;
@@ -2879,6 +2884,7 @@ body.oh {
   font-weight: 700;
   line-height: 88px; /* 191.304% */
   text-transform: uppercase;
+  margin: 0;
 }
 .gift__list {
   margin: 0;
