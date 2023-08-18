@@ -972,7 +972,18 @@ $transition05: all 0.5s ease-in-out;
         font-size: 78px;
         line-height: 88px;
         text-transform: uppercase;
-        margin: 0 0 68px;
+        margin: 0 0 16px;
+        max-width: 1024px;
+    }
+    h3{
+        color: #FFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 34px; /* 141.667% */
+        text-transform: uppercase;
+        max-width: 880px; 
+        margin-bottom: 68px;
     }
     &__list{
         display: flex;
@@ -2547,7 +2558,7 @@ body.oh {
     }
     &__cat {
         position: absolute;
-        bottom: -81px;
+        bottom: -82px;
         right: 100px;
     }
 }
@@ -2571,6 +2582,8 @@ body.oh {
         background: #fff;
         border-radius: 40px;
         overflow: hidden;
+        display: flex;
+        flex-direction: column;
     }
     &__head {
         background: #FFD508;
@@ -2594,16 +2607,57 @@ body.oh {
         text-align: center;
     }
     &__desc {
-        
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px; 
+        min-height: 146px;
     }
     &__body {
-        padding: 32px 16px 24px;
+        padding: 32px 32px 24px 16px;
+        flex-grow: 1;
     }
-    &__for {}
-    &__list {}
-    &__foot {}
-    &__from {}
-    &__price {}
+    &__for {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 122.222%; /* 122.222% */
+        text-transform: uppercase; 
+        margin-bottom: 20px;
+    }
+    &__list {
+        margin: 0;
+        padding-left: 25px;
+        li{
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 22px; 
+            margin-bottom: 20px;
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+    }
+    &__foot {
+        background: #FFD508;
+        padding: 14px 22px;
+    }
+    &__from {
+        margin: 0;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 34px; /* 170% */
+        text-decoration: line-through;
+        text-transform: uppercase; 
+    }
+    &__price {
+        margin: 0;
+        text-align: center;
+        color: #272727;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 34px; /* 106.25% */
+        text-transform: uppercase; 
+    }
 }
 
 .gift {
@@ -2682,5 +2736,5 @@ body.oh {
 
 
 
-@import '_animate';
+//@import '_animate';
 @import '_query';
