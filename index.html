@@ -194,7 +194,7 @@
 					<div class="tag__item">Automate order processing</div>
 					<div class="tag__item">Reduce the time of entrepreneur up to 10 times</div>
 				</div>
-				<div class="btn">I WANT to increase sales!</div>
+				<div class="btn modal_btn">I WANT to increase sales!</div>
 			</section>
 			<section class="comment content__comment wow animate__animated animate__fadeInUp" id="comment">
 				<h2 class="projects__title">
@@ -309,7 +309,7 @@
 			<section class="cat wow animate__animated animate__fadeInUp">
 				<h2 class="section-title cat__title">your site has a low conversion rate?</h2>
 				<p class="cat__desc">Send us your site and we will tell you why!</p>
-				<div class="btn">Send the website</div>
+				<div class="btn modal_btn">Send the website</div>
 				<img src="./img/cat.svg" alt="" class="cat__cat">
 			</section>
 		</div>
@@ -458,7 +458,7 @@
 					</ul>
 				</article>
 				<div class="ac">
-					<div class="btn btn_yellow btn_yellow-shadow">Calculate THE cost</div>
+					<div class="btn btn_yellow btn_yellow-shadow modal_btn">Calculate THE cost</div>
 				</div>
 			</section>
 			<section class="cat wow animate__animated animate__fadeInUp">
@@ -471,7 +471,7 @@
 					<li>Create website structure that will generate trust and sale</li>
 					<li>Write marketing texts for main page of your website</li>
 				</ul>
-				<div class="btn">I WANT TO TRY!</div>
+				<div class="btn modal_btn">I WANT TO TRY!</div>
 				<img src="./img/cat.svg" alt="" class="cat__cat">
 			</section>
 		</div>
@@ -545,7 +545,7 @@
 				<p class="step__text">Text us: <a href="mailto:info@web-off.com">info@web-off.com</a></p>
 				<p class="step__text last">Or sign up for free consultation!</p>
 				<div class="step__group">
-					<div class="btn btn_white">Sign up for free consultation</div>
+					<div class="btn btn_white modal_btn">Sign up for free consultation</div>
 					<div class="socgroup">
 						<a href="" class="soc">
 							<svg>
@@ -586,7 +586,7 @@
 	</footer>
 	<div class="modal-bg"></div>
 	<div class="modal-wrap">
-		<div class="modal ">
+		<div class="modal" data-attr="modal_form">
 			<div class="modal__body">
 				<div class="modal__inner">
 					<div class="formwrap">
@@ -604,8 +604,22 @@
 								<span>Website link <small>(If you want redesign or to increase conversion rate)</small></span>
 								<input class="input" type="text">
 							</label>
-							<button class="btn btn_yellow">SEND REQUEST</button>
+							<button class="btn btn_yellow send_btn">SEND REQUEST</button>
 						</form>
+					</div>
+					<div class="modal__close">
+						<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M1 1L13 13M13 13L25 25M13 13L25 1M13 13L1 25" stroke="#272727" stroke-width="2"/>
+						</svg>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal" data-attr="modal_confirm">
+			<div class="modal__body">
+				<div class="modal__inner">
+					<div class="formwrap">
+						<div class="modal__desc modal__desc_confirm">Thank you for you message we will contact you soon!</div>
 					</div>
 					<div class="modal__close">
 						<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">

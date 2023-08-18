@@ -2537,6 +2537,10 @@ video {
   z-index: 2000;
   border-radius: 75px;
   box-shadow: 0px 0px 69px 5px #fff;
+  display: none;
+}
+.modal.vis {
+  display: block;
 }
 .modal__close {
   width: 30px;
@@ -2567,6 +2571,9 @@ video {
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 48px;
+}
+.modal__desc_confirm {
+  margin-bottom: 0;
 }
 .modal .formwrap {
   padding: 120px 68px;
@@ -2601,6 +2608,13 @@ video {
   width: 100%;
   border: 0;
   padding: 0;
+}
+
+.modal[data-attr=modal_confirm] {
+  display: none;
+}
+.modal[data-attr=modal_confirm].vis {
+  display: block;
 }
 
 .oh {

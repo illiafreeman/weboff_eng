@@ -152,8 +152,9 @@ function modal() {
 	$('body').addClass('oh');
 	$('.modal-bg').addClass('vis');
 	$('.modal-wrap').addClass('vis');
+	$('.modal[data-attr="modal_form"]').addClass('vis');
 }
-$('h1').click(modal);
+$('.modal_btn').click(modal);
 
 $('.modal').on('click', function (e) {
 	e.stopPropagation();
@@ -163,7 +164,11 @@ $('.modal-wrap, .modal__close').on('click', function (e) {
 	$('body').removeClass('oh');
 	$('.modal-bg').removeClass('vis');
 	$('.modal-wrap').removeClass('vis');
-
+	$('.modal').removeClass('vis');
+});
+$('.send_btn').on('click', function (e) {
+	$('.modal[data-attr="modal_form"]').removeClass('vis');
+	$('.modal[data-attr="modal_confirm"]').addClass('vis');
 });
 
 $(document).click(function(event) {
