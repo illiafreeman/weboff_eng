@@ -2461,7 +2461,7 @@ video {
   height: 74px;
   border-radius: 40px;
   background: #65DBBD;
-  padding: 40px;
+  padding: 0 40px;
   color: #272727;
   font-size: 20px;
   font-weight: 700;
@@ -2486,6 +2486,12 @@ video {
 .btn_yellow-shadow:hover {
   background: #ffd508;
   box-shadow: 0 0 17px 5px #fff;
+}
+.btn_white {
+  background: #fff;
+}
+.btn_white:hover {
+  background: #65DBBD;
 }
 
 .modal-bg {
@@ -2741,6 +2747,9 @@ body.oh {
   text-transform: uppercase;
   margin: 0 0 70px;
 }
+.section-title_black {
+  color: #272727;
+}
 
 .cat {
   border-radius: 75px;
@@ -2951,6 +2960,73 @@ body.oh {
 
 .ac {
   text-align: center;
+}
+
+.step {
+  border-radius: 75px;
+  background: #FFD508;
+  padding: 82px 117px;
+  margin-bottom: 102px;
+  position: relative;
+  color: #272727;
+}
+.step .section-title {
+  margin-bottom: 6px;
+}
+.step__sub {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 152.4%;
+  text-transform: uppercase;
+  margin: 0 0 34px;
+}
+.step__text {
+  color: #272727;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  text-transform: uppercase;
+  margin: 0 0 20px;
+}
+.step__text a {
+  color: #272727;
+}
+.step__text a:hover {
+  text-decoration: none;
+}
+.step__text.last {
+  margin-bottom: 54px;
+}
+.step__group {
+  display: flex;
+  gap: 68px;
+}
+
+.socgroup {
+  display: flex;
+  gap: 16px;
+}
+
+.soc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  background: #272727;
+  transition: all 0.2s ease-in-out;
+}
+.soc svg {
+  fill: #FFD508;
+  width: 40px;
+  height: 40px;
+  transition: all 0.2s ease-in-out;
+}
+.soc:hover {
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 1700px) {
