@@ -1,4 +1,28 @@
+//open-close burger menu
+const introHeaderElement = document.querySelector('.intro__header');
+const introTextElement = document.querySelector('.intro__text');
+const burgerButton = document.querySelector('.header__burger');
+const closeButton = document.querySelector('.header__close-button');
+const menu = document.querySelector('.header__menu');
 
+burgerButton.addEventListener('click', handleOpenMenu);
+closeButton.addEventListener('click', handleCloseMenu);
+
+function handleOpenMenu() {
+	introHeaderElement.classList.add('intro__header_display-none');
+	introTextElement.classList.add('intro__text_display-none');
+	burgerButton.classList.add('header__burger_invisible');
+	closeButton.classList.add('header__close-button_visible');
+	menu.classList.add('header__menu_visible');
+}
+
+function handleCloseMenu() {
+	introHeaderElement.classList.remove('intro__header_display-none');
+	introTextElement.classList.remove('intro__text_display-none');
+	burgerButton.classList.remove('header__burger_invisible');
+	closeButton.classList.remove('header__close-button_visible');
+	menu.classList.remove('header__menu_visible');
+}
 	
 	/*scroll to top*/
 	var scrollTop = $(".scrollTop");
