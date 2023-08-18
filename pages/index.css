@@ -1706,9 +1706,6 @@ template {
 .page__footer {
   padding: 0;
   margin: 0 auto 0;
-  background-image: url(../images/bg_footer_green.png), url(../images/bg_footer_red.png), url(../images/bg_footer_yellow.png);
-  background-repeat: no-repeat;
-  background-position: left bottom, 75% 520px, 95% top;
 }
 .page__footer .container {
   max-width: 1440px;
@@ -2960,7 +2957,9 @@ body.oh {
 
 .step {
   border-radius: 75px;
-  background: #FFD508;
+  background: #FFD508 url(../img/bg_step.png);
+  background-repeat: no-repeat;
+  background-position: right 90%;
   padding: 82px 117px;
   margin-bottom: 102px;
   position: relative;
