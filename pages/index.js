@@ -102,7 +102,16 @@ function handleCloseMenu() {
                     //focusOnSelect: true,
 					//adaptiveHeight: true,
 				}
-            }                  
+            },    
+			{
+				breakpoint: 768,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1,
+						centerMode: true,
+						arrows: false,
+					}
+			},              
         ]
     });
 	$('#slick').slick({     
