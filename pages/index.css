@@ -694,7 +694,7 @@ template {
   width: 460px;
 }
 
-.intro__header_display-none {
+.intro__header_display-none, .intro__subheader_display-none, .intro__btn_display-none {
   visibility: hidden;
 }
 

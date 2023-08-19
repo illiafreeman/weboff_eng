@@ -447,8 +447,8 @@ $transition05: all 0.5s ease-in-out;
     width: 460px;
 }
 
-.intro__header_display-none {
-    visibility: hidden
+.intro__header_display-none, .intro__subheader_display-none, .intro__btn_display-none {
+    visibility: hidden;
 }
 
 .page__content {

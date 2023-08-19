@@ -1,5 +1,7 @@
 //open-close burger menu
 const introHeaderElement = document.querySelector('.intro__header');
+const introSubHeaderElement = document.querySelector('.intro__subheader');
+const introBtn = document.querySelector('.intro__btn');
 const introTextElement = document.querySelector('.intro__text');
 const burgerButton = document.querySelector('.header__burger');
 const closeButton = document.querySelector('.header__close-button');
@@ -10,6 +12,8 @@ closeButton.addEventListener('click', handleCloseMenu);
 
 function handleOpenMenu() {
 	introHeaderElement.classList.add('intro__header_display-none');
+	introSubHeaderElement.classList.add('intro__subheader_display-none');
+	introBtn.classList.add('intro__btn_display-none');
 	introTextElement.classList.add('intro__text_display-none');
 	burgerButton.classList.add('header__burger_invisible');
 	closeButton.classList.add('header__close-button_visible');
@@ -18,6 +22,8 @@ function handleOpenMenu() {
 
 function handleCloseMenu() {
 	introHeaderElement.classList.remove('intro__header_display-none');
+	introSubHeaderElement.classList.remove('intro__subheader_display-none');
+	introBtn.classList.remove('intro__btn_display-none');
 	introTextElement.classList.remove('intro__text_display-none');
 	burgerButton.classList.remove('header__burger_invisible');
 	closeButton.classList.remove('header__close-button_visible');
