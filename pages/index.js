@@ -96,9 +96,7 @@ function handleCloseMenu() {
             {
             breakpoint: 1280,
                 settings: {
-                    slidesToShow: 1,
-                    dots: true,
-                    arrows: false,
+                    slidesToShow: 2,
                     centerMode: true,
                     infinite: true,
                     //focusOnSelect: true,

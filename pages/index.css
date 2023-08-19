@@ -2925,6 +2925,7 @@ body.oh {
   line-height: 88px; /* 191.304% */
   text-transform: uppercase;
   margin: 0;
+  white-space: nowrap;
 }
 .gift__list {
   margin: 0;
@@ -3395,6 +3396,145 @@ body.oh {
   }
   .comment__container {
     margin: 0;
+  }
+  .intro__header {
+    margin: 0;
+  }
+  .intro__subheader {
+    color: #FFF;
+    font-size: 40px;
+  }
+  .btn {
+    height: 60px;
+    font-size: 18px;
+  }
+  .content__statystic .container {
+    padding-bottom: 100px;
+  }
+  .content__offer {
+    padding-right: 80px;
+  }
+  .offer__we-offer {
+    max-width: none;
+    width: auto;
+  }
+  .offer__title {
+    font-size: 34px;
+    line-height: 50px;
+  }
+  .offer__title_adv {
+    font-size: 60px;
+    line-height: 80px;
+  }
+  .pro__grid {
+    margin: 0 26px;
+  }
+  .pro__more {
+    margin: 0 0 14px;
+    font-size: 20px;
+  }
+  .pro__res {
+    font-size: 20px;
+  }
+  .slick-dotted.slick-slider.slider_pro {
+    margin-bottom: 0;
+  }
+  .projects__container {
+    padding-bottom: 50px;
+  }
+  .tag {
+    padding: 0 100px;
+    margin-bottom: 104px;
+  }
+  .section-title {
+    font-size: 46px;
+    line-height: 56px;
+    margin: 0 0 62px;
+  }
+  .tag__item {
+    font-size: 18px;
+  }
+  .cat {
+    padding: 62px 86px;
+  }
+  .cat__title {
+    width: 80%;
+    margin: 0 0 36px;
+  }
+  .cat__desc {
+    color: #272727;
+    font-size: 24px;
+  }
+  .cat__cat {
+    bottom: -57px;
+    width: 216px;
+  }
+  .stage h3 {
+    width: 80%;
+    font-size: 20px;
+  }
+  .stage__desc li {
+    text-align: left;
+  }
+  .stage {
+    padding: 0 100px 80px;
+  }
+  .price {
+    padding: 62px 86px;
+  }
+  .price__name {
+    font-size: 26px;
+    line-height: 140%;
+  }
+  .price__subname {
+    font-size: 20px;
+  }
+  .price__desc {
+    min-height: 220px;
+  }
+  .price__desc {
+    font-size: 16px;
+  }
+  .price__list li {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+  .price__list {
+    margin: 0;
+    padding-left: 17px;
+  }
+  .gift__title {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .gift__pic {
+    margin-right: 20px;
+  }
+  .gift__list li {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    margin-bottom: 16px;
+  }
+  .gift {
+    margin-bottom: 60px;
+  }
+  .cat__subtitle {
+    font-size: 26px;
+  }
+  .cat__list {
+    width: 60%;
+  }
+  .cat__list li {
+    font-size: 22px;
+    line-height: 140%;
+  }
+  .step {
+    padding: 62px 86px;
+  }
+  .step__sub {
+    font-size: 28px;
+    line-height: 140%;
   }
 }
 @media screen and (max-width: 1024px) {
