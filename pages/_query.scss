@@ -1950,9 +1950,9 @@
         padding: 0;
     }
     .section-title {
-        font-size: 24px;
-        line-height: 28px;
-        margin: 0 0 32px;
+        font-size: 30px;
+        line-height: 36px;
+        margin: 0 0 40px;
     }
     .tag__item {
         font-size: 15px;
@@ -1984,18 +1984,49 @@
         font-size: 30px;
         line-height: 36px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
+    .cat, .price, .step {
+        border-radius: 30px;
+        padding: 32px 45px;
+    }
+    .stage {
+        padding: 0 45px;
+    }
+    .cat__subtitle {
+        font-size: 19px;
+    }
+    .cat__list li {
+        font-size: 17px;
+    }
+    .cat__list {
+        margin: 0 0 82px;
+        padding-left: 20px;
+    }
+    .cat__list li::after {
+        left: -17px;
+    }
+    .step__text {
+        font-size: 17px;
+    }
+    .step__group{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .socgroup{
+        justify-content: center;
+    }
+    .page__footer{
+        border: 0;
+    }
+    .projects__title {
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 40px;
+    }
+    .stage h2, .team__title, .step .section-title {
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 40px;
+    }
 
 
 
