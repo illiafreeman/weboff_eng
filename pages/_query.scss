@@ -1957,6 +1957,7 @@
     .tag__item {
         font-size: 15px;
         height: 46px;
+        line-height: 110%;
     }
     .tag__list {
         gap: 16px;
@@ -1987,6 +1988,9 @@
     .cat, .price, .step {
         border-radius: 30px;
         padding: 32px 45px;
+    }
+    .gift, .price__item {
+        border-radius: 30px;
     }
     .stage {
         padding: 0 45px;
@@ -2027,8 +2031,15 @@
         line-height: 36px;
         margin-bottom: 40px;
     }
-
-
+    .intro__subheader{
+        line-height: 120%;
+    }
+    .info__telegram-link {
+        margin-right: 12px;
+    }
+    .page__footer_project{
+        background: none;
+    }
 
 
 
@@ -2146,7 +2157,61 @@
             width: 30px;
         }
     }
+    .tag {
+        padding: 0 20px;
+    }
+    .projects__title {
+        font-size: 24px;
+        line-height: 28px;
+        margin: 32px 20px;
+    }
+    .content__why-us {
+        padding: 62px 20px;
+    }
+    .cat, .price, .step {
+        padding: 32px 20px;
+    }
+    .cat__cat {
+        bottom: -26px;
+        width: 100px;
+        right: 38px;
+    }
+    .stage {
+        padding: 0 20px;
+    }
+    .content__special-offer {
+        padding: 33px 20px;
+    }
+    .stage h3{
+        margin-bottom: 40px;
+    }
+    .gift {
+        margin-bottom: 40px;
+    }
+    .stage h2, .team__title, .step .section-title, .section-title {
+        font-size: 30px;
+        line-height: 32px;
+        margin-bottom: 40px;
+    }
+    .step__sub {
+        font-size: 20px;
+    }
+    .stage, .tag, .content__offer {
+        padding: 0 12px;
+    }
+    .content__comment, .projects__container {
+        margin: 0;
+    }
+    .content__statystic {
+        padding: 62px 12px;
+    }
 
+    .projects__container {
+        padding-bottom: 32px;
+    }
+    .content__why-us {
+        padding: 62px 12px;
+    }
 
 
 
