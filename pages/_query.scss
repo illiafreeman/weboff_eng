@@ -313,8 +313,8 @@
     }
 
     .content__projects {
-        margin: 82px 0;
-        padding: 0;
+        margin: 41px 0 82px;
+        padding: 41px 0 0;
     }
 
     .projects__container {
@@ -541,7 +541,10 @@
         margin-bottom: 82px;
     }
     .team {
-        padding: 0 0 41px;
+        padding: 41px 0;
+    }
+    .cat_team{
+        margin-bottom: 41px;
     }
     .container_contact {
         padding-top: 41px;
