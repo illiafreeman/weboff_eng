@@ -104,7 +104,7 @@
     .content__intro,
     .client,
     .content__why-us .container {
-        padding: 80px 100px;
+        padding: 82px 100px;
     }
 
     .offer__we-offer {
@@ -247,7 +247,7 @@
     }
 
     .content__special-offer {
-        margin: 0 14px 62px;
+        margin: 0 14px 82px;
     }
 
     .products__title {
@@ -313,7 +313,7 @@
     }
 
     .content__projects {
-        margin: 50px 0 82px;
+        margin: 82px 0;
         padding: 0;
     }
 
@@ -500,7 +500,7 @@
     }
     .tag {
         padding: 0 100px;
-        margin-bottom: 104px;
+        margin-bottom: 82px;
     }
     .section-title {
         font-size: 46px;
@@ -512,6 +512,7 @@
     }
     .cat {
         padding: 62px 86px;
+        margin-bottom: 82px;
     }
     .cat__title{
         width: 80%;
@@ -533,10 +534,17 @@
         text-align: left;
     }
     .stage {
-        padding: 0 100px 80px;
+        padding: 0 100px 82px;
     }
     .price {
         padding: 62px 86px;
+        margin-bottom: 82px;
+    }
+    .team {
+        padding: 0 0 41px;
+    }
+    .container_contact {
+        padding-top: 41px;
     }
     .price__name {
         font-size: 26px;
@@ -587,12 +595,15 @@
     }
     .step{
         padding: 62px 86px;
+        margin-bottom: 82px;
     }
     .step__sub {
         font-size: 28px;
         line-height: 140%;
     }
-
+    .footer__info {
+        margin: 0 auto;
+    }
 
 }
 
