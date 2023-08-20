@@ -2587,11 +2587,11 @@ video {
 .modal .formwrap {
   padding: 120px 68px;
 }
-.modal .formwrap label {
+.modal .formwrap label:not(.btn) {
   display: block;
   margin-bottom: 34px;
 }
-.modal .formwrap label span {
+.modal .formwrap label:not(.btn) span {
   color: #272727;
   font-size: 16px;
   font-weight: 500;
@@ -2599,11 +2599,11 @@ video {
   display: block;
   margin-bottom: 14px;
 }
-.modal .formwrap label span small {
+.modal .formwrap label:not(.btn) span small {
   font-size: 100%;
   color: #929292;
 }
-.modal .formwrap label .input {
+.modal .formwrap label:not(.btn) .input {
   border-radius: 75px;
   border: 1px solid #272727;
   background: #FFF;
@@ -3829,6 +3829,20 @@ body.oh {
   .pro__item:hover .pro__pic {
     box-shadow: none;
   }
+  body.oh {
+    padding-right: 0;
+  }
+  .modal {
+    left: 50%;
+    width: 90%;
+    border-radius: 30px;
+  }
+  .modal__desc {
+    font-size: 37px;
+  }
+  .modal .formwrap label:not(.btn) .input {
+    height: 60px;
+  }
 }
 @media screen and (max-width: 1023px) {
   .statystic__startup-grid {
@@ -3884,6 +3898,20 @@ body.oh {
   }
 }
 @media screen and (max-width: 768px) {
+  .modal__desc {
+    font-size: 20px;
+  }
+  .modal .formwrap {
+    padding: 86px 20px 40px;
+  }
+  .modal .formwrap label:not(.btn) .input {
+    height: 48px;
+    font-size: 18px;
+  }
+  .modal__close {
+    top: 27px;
+    right: 28px;
+  }
   .content__statystic {
     background-image: url(../images/bg_statystic_green.png);
     background-position: 100% 46px;

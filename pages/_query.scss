@@ -880,10 +880,20 @@
     .pro__item:hover .pro__pic {
         box-shadow: none;
     }
-
-
-
-
+    body.oh {
+        padding-right: 0;
+    }
+    .modal {
+        left: 50%;
+        width: 90%;
+        border-radius: 30px;
+    }
+    .modal__desc {
+        font-size: 37px;
+    }
+    .modal .formwrap label:not(.btn) .input {
+        height: 60px;
+    }
 
 
 
@@ -975,6 +985,20 @@
 
 
 @media screen and (max-width:768px) {
+    .modal__desc {
+        font-size: 20px;
+    }
+    .modal .formwrap {
+        padding: 86px 20px 40px;
+    }
+    .modal .formwrap label:not(.btn) .input {
+        height: 48px;
+        font-size: 18px;
+    }
+    .modal__close {
+        top: 27px;
+        right: 28px;    
+    }
     .content__statystic{
         background-image: url(../images/bg_statystic_green.png);
         background-position: 100% 46px;

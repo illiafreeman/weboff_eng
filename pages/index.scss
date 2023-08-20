@@ -2373,7 +2373,7 @@ video{
     }
     .formwrap{
         padding: 120px 68px;
-        label{
+        label:not(.btn){
             display: block;
             margin-bottom: 34px;
             span{
