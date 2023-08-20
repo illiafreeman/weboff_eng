@@ -667,10 +667,12 @@
             width: auto;
         }
         .footer__info_project{
-            margin-top: 80px;
+            margin-top: 0;
         }
     }
-
+    .info__copyright {
+        margin: 31px 0 0;
+    }
 
 
 
@@ -691,12 +693,15 @@
         font-size: 14px;
         line-height: 20px;
     }
-
+    .why-us__title, .content__special-offer{
+        margin-bottom: 62px;
+    }
+    
     .content__statystic .container,
     .content__intro,
     .client,
     .content__why-us .container {
-        padding: 60px 40px;
+        padding: 62px 40px;
     }
     .offer__we-offer {
         margin: 145px 55px 145PX 45px;
@@ -803,8 +808,8 @@
         line-height: 22px;
     }
     .content__projects {
-        margin: 50px 0 62px;
-        padding: 0;
+        margin: 31px 0 62px;
+        padding: 31px 0 0;
     }
     .tag {
         padding: 0 40px;
@@ -813,6 +818,15 @@
     .cat {
         padding: 62px 45px;
         margin-bottom: 62px;
+    }
+    .cat_team{
+        margin-bottom: 31px;
+    }
+    .team {
+        padding: 31px 0;
+    }
+    .container_contact {
+        padding-top: 31px;
     }
     .cat__cat {
         bottom: -39px;
@@ -853,7 +867,7 @@
         width: auto;
     }
     .slider_team {
-        margin-bottom: 62px !important;
+        margin-bottom: 0 !important;
     }
     .step {
         padding: 62px 45px;
