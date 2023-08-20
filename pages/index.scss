@@ -210,6 +210,9 @@ $transition05: all 0.5s ease-in-out;
 .container{
     max-width: 1440px;
     margin: 0 auto !important;
+    &_contact{
+        padding-top: 51px;
+    }
 }
 /*Plugin CSS*/
 .str_wrap {
@@ -2200,7 +2203,7 @@ video{
     }
 }
 .slider_team{
-    margin-bottom: 102px !important;
+    margin-bottom: 0 !important;
     .slick-prev svg, .slick-next svg {
         fill: #fff;
     }
@@ -2540,7 +2543,9 @@ body.oh {
         color: #272727;
     }
 }
-
+.team{
+    padding: 51px 0;
+}
 .cat {
     border-radius: 75px;
     background: #FFF; 
@@ -2548,6 +2553,9 @@ body.oh {
     margin: 0 12px 102px;
     position: relative;
     color: #272727; 
+    &_team{
+        margin-bottom: 51px;
+    }
     &__title {
         color: #272727; 
         margin-bottom: 26px;

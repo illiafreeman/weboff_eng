@@ -460,6 +460,9 @@ template {
   max-width: 1440px;
   margin: 0 auto !important;
 }
+.container_contact {
+  padding-top: 51px;
+}
 
 /*Plugin CSS*/
 .str_wrap {
@@ -2414,7 +2417,7 @@ video {
 }
 
 .slider_team {
-  margin-bottom: 102px !important;
+  margin-bottom: 0 !important;
 }
 .slider_team .slick-prev svg, .slider_team .slick-next svg {
   fill: #fff;
@@ -2743,6 +2746,10 @@ body.oh {
   color: #272727;
 }
 
+.team {
+  padding: 51px 0;
+}
+
 .cat {
   border-radius: 75px;
   background: #FFF;
@@ -2750,6 +2757,9 @@ body.oh {
   margin: 0 12px 102px;
   position: relative;
   color: #272727;
+}
+.cat_team {
+  margin-bottom: 51px;
 }
 .cat__title {
   color: #272727;
@@ -3781,6 +3791,9 @@ body.oh {
   .step__sub {
     font-size: 22px;
     line-height: 140%;
+  }
+  .pro__item:hover .pro__pic {
+    box-shadow: none;
   }
 }
 @media screen and (max-width: 1023px) {
@@ -4820,6 +4833,9 @@ body.oh {
   }
   .page__footer_project {
     background: none;
+  }
+  .stage__item, .content__special-offer {
+    border-radius: 30px;
   }
 }
 @media screen and (max-width: 600px) {

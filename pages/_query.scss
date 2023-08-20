@@ -849,7 +849,9 @@
         font-size: 22px;
         line-height: 140%;
     }
-
+    .pro__item:hover .pro__pic {
+        box-shadow: none;
+    }
 
 
 
@@ -2040,7 +2042,9 @@
     .page__footer_project{
         background: none;
     }
-
+    .stage__item, .content__special-offer{
+        border-radius: 30px;
+    }
 
 
 }
