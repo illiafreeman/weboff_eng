@@ -596,6 +596,7 @@ template {
   min-width: 134px;
   min-height: 42px;
   opacity: 1;
+  text-align: center;
 }
 .header__menu-link_bordered:before {
   display: none;
