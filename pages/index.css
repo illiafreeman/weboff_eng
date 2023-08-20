@@ -4881,6 +4881,15 @@ body.oh {
     margin: 31px 0 62px;
     padding: 31px 0 0;
   }
+  .stage__title {
+    font-size: 20px;
+    line-height: 22px;
+    padding: 0 20px;
+  }
+  .stage__desc li {
+    font-size: 15px;
+    line-height: 20px;
+  }
 }
 @media screen and (max-width: 600px) {
   .project {
