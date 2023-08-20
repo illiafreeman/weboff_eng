@@ -2466,6 +2466,9 @@ video {
   transition: all 0.2s ease-in-out;
   cursor: pointer;
 }
+.btn span {
+  text-align: center;
+}
 .btn:hover {
   background: #ffd508;
 }
@@ -2950,6 +2953,9 @@ body.oh {
 
 .ac {
   text-align: center;
+}
+.ac_min {
+  text-align: left;
 }
 
 .step {
@@ -4968,5 +4974,24 @@ body.oh {
   }
   .content__why-us {
     padding: 62px 12px;
+  }
+  .statystic__sites-main {
+    max-width: none;
+  }
+  .offer__list-container {
+    margin: 20px 19px 32px;
+  }
+  .ac_min {
+    text-align: center;
+  }
+  .cat__mb {
+    margin-bottom: 100px;
+  }
+  .cat__cat {
+    right: 50%;
+    margin-right: -50px;
+  }
+  .cat__list {
+    margin: 0 0 49px;
   }
 }/*# sourceMappingURL=index.css.map */

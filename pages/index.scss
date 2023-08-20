@@ -2250,6 +2250,9 @@ video{
     text-decoration: none;
     transition: $transition;
     cursor: pointer;
+    span{
+        text-align: center;
+    }
     &:hover{
         background: #ffd508; 
     }
@@ -2747,6 +2750,9 @@ body.oh {
 }
 .ac {
     text-align: center;
+    &_min{
+        text-align: left;
+    }
 }
 .step {
     border-radius: 75px;
