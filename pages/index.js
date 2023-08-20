@@ -5,10 +5,15 @@ const introBtn = document.querySelector('.intro__btn');
 const introTextElement = document.querySelector('.intro__text');
 const burgerButton = document.querySelector('.header__burger');
 const closeButton = document.querySelector('.header__close-button');
+const closeLink = document.querySelectorAll('.header__menu-list-link');
 const menu = document.querySelector('.header__menu');
 
 burgerButton.addEventListener('click', handleOpenMenu);
+for(var i = 0; i < closeLink.length; i++) {
+	closeLink[i].addEventListener("click", handleCloseMenu);
+  }
 closeButton.addEventListener('click', handleCloseMenu);
+
 
 function handleOpenMenu() {
 	introHeaderElement.classList.add('intro__header_display-none');

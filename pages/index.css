@@ -2446,6 +2446,9 @@ video {
   position: static;
   cursor: pointer;
 }
+.lang a::before {
+  display: none;
+}
 .lang a:hover {
   text-decoration: none;
 }
@@ -4867,6 +4870,16 @@ body.oh {
   }
   .stage__item, .content__special-offer {
     border-radius: 30px;
+  }
+  .team {
+    padding: 31px 20px;
+  }
+  .team__member {
+    margin-bottom: 0;
+  }
+  .content__projects {
+    margin: 31px 0 62px;
+    padding: 31px 0 0;
   }
 }
 @media screen and (max-width: 600px) {

@@ -2229,6 +2229,9 @@ video{
         text-decoration: underline;
         position: static;
         cursor: pointer;
+        &::before{
+            display: none;
+        }
         &:hover{
             text-decoration: none;
         }
