@@ -2584,6 +2584,11 @@ body.oh {
         display: flex;
         flex-wrap: wrap;
         margin-bottom: 54px;
+        &_it{
+            .tag__item{
+                font-size: 18px;
+            }
+        }
     }
     &__item {
         border-radius: 75px;
