@@ -5091,6 +5091,9 @@ body.oh {
   .tag {
     padding: 0 20px;
   }
+  .tag .btn {
+    width: 100%;
+  }
   .projects__title {
     font-size: 24px;
     line-height: 28px;
@@ -5106,6 +5109,9 @@ body.oh {
     bottom: -26px;
     width: 100px;
     right: 38px;
+  }
+  .cat .btn {
+    width: 100%;
   }
   .stage {
     padding: 0 20px;
