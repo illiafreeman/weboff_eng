@@ -837,13 +837,14 @@ $transition05: all 0.5s ease-in-out;
     color: #272727;
     font-size: 46px;
     font-weight: 700;
-    line-height: 76px;
+    line-height: 110%;
     text-transform: uppercase;
     margin: 0;
     padding: 0;
     &_adv{
         font-size: 78px; 
         line-height: 90px;
+        margin: 10px 0;;
         strong{
             font-weight: 700; 
         }

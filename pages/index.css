@@ -1078,7 +1078,7 @@ template {
   color: #272727;
   font-size: 46px;
   font-weight: 700;
-  line-height: 76px;
+  line-height: 110%;
   text-transform: uppercase;
   margin: 0;
   padding: 0;
@@ -1086,6 +1086,7 @@ template {
 .offer__title_adv {
   font-size: 78px;
   line-height: 90px;
+  margin: 10px 0;
 }
 .offer__title_adv strong {
   font-weight: 700;
@@ -3180,7 +3181,6 @@ body.oh {
   }
   .offer__title {
     font-size: 46px;
-    line-height: 56px;
   }
   .header__menu {
     margin-right: 0;
@@ -3496,7 +3496,6 @@ body.oh {
   }
   .offer__title {
     font-size: 34px;
-    line-height: 50px;
   }
   .offer__title_adv {
     font-size: 60px;
@@ -5098,7 +5097,7 @@ body.oh {
     padding: 62px 20px;
   }
   .cat, .price, .step {
-    padding: 32px 20px;
+    padding: 50px 20px 32px;
   }
   .cat__cat {
     bottom: -26px;
