@@ -2699,15 +2699,15 @@ body.oh {
 .pro__desc {
   color: #fff;
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .pro__link {
   color: #fff;
   display: block;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .pro__pic {
   width: 100%;
