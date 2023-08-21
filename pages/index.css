@@ -2626,6 +2626,23 @@ video {
   outline: none;
   font-size: 20px;
 }
+.modal .formwrap label:not(.btn).error span {
+  color: #e80d0d;
+}
+.modal .formwrap label:not(.btn).error span small {
+  color: #e80d0d;
+}
+.modal .formwrap label:not(.btn).error input {
+  border-color: #e80d0d;
+}
+.modal .formwrap label:not(.btn).error .error__text {
+  display: block;
+  color: #e80d0d;
+  margin-top: 10px;
+}
+.modal .formwrap label:not(.btn) .error__text {
+  display: none;
+}
 .modal .formwrap .btn {
   width: 100%;
   border: 0;

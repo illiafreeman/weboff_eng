@@ -2411,7 +2411,27 @@ video{
                 outline: none;
                 font-size: 20px; 
             }
+            &.error{
+                span{
+                    color: #e80d0d;
+                    small{
+                        color: #e80d0d;
+                    }
+                }
+                input{
+                    border-color: #e80d0d;
+                }
+                .error__text{
+                    display: block;
+                    color: #e80d0d;
+                    margin-top: 10px;
+                }
+            }
+            .error__text{
+                display: none;
+            }
         }
+
         
         .btn{
             width: 100%;
