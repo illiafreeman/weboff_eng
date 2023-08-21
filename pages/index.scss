@@ -2136,7 +2136,19 @@ video{
     }
     &__text {
         font-size: 18px;
-        line-height: 26px;
+        line-height: 24px;
+        a{
+            color: #31B996;;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+        p{
+            margin: 0 0 12px;
+            &:last-child{
+                margin: 0;
+            }
+        }
     }
 }
 .slick-prev, .slick-next{

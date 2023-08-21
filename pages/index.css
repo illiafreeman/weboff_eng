@@ -2354,7 +2354,19 @@ video {
 }
 .review__text {
   font-size: 18px;
-  line-height: 26px;
+  line-height: 24px;
+}
+.review__text a {
+  color: #31B996;
+}
+.review__text a:hover {
+  text-decoration: none;
+}
+.review__text p {
+  margin: 0 0 12px;
+}
+.review__text p:last-child {
+  margin: 0;
 }
 
 .slick-prev, .slick-next {
