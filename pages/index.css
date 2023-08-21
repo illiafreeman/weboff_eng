@@ -2681,9 +2681,36 @@ body.oh {
   transform: translateX(-5px);
 }
 
+.pro__pic-wrap {
+  position: relative;
+  margin-bottom: 26px;
+}
+.pro__over {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 22px;
+}
+.pro__desc {
+  color: #fff;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.pro__link {
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+}
 .pro__pic {
   width: 100%;
-  margin-bottom: 26px;
   transition: all 0.2s ease-in-out;
   border-radius: 34px;
   overflow: hidden;
