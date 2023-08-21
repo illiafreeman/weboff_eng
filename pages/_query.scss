@@ -2209,7 +2209,17 @@
 
 
 @media screen and (max-width: 480px) {
-
+    .pro__desc {
+        color: #fff;
+        display: block;
+        margin-bottom: 16px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .pro__link {
+        font-size: 14px;
+        font-weight: 500;
+    }
     .stage__pic, .client__pic, .projects__grid-image{
         // height: 150px;
         // object-fit: cover;
