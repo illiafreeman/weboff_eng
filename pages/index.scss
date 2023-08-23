@@ -2845,13 +2845,14 @@ body.oh {
     position: relative;
     color: #272727;
     .section-title{
-        margin-bottom: 6px;
+        margin-bottom: 26px;
+        font-size: 56px;
     }
     &__sub {
-        font-size: 32px;
+        font-size: 24px;
         font-style: normal;
         font-weight: 700;
-        line-height: 152.4%;
+        line-height: 120%;
         text-transform: uppercase; 
         margin: 0 0 34px;
     }
