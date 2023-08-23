@@ -835,7 +835,7 @@ $transition05: all 0.5s ease-in-out;
 
 .offer__title {
     color: #272727;
-    font-size: 46px;
+    font-size: 32px;
     font-weight: 700;
     line-height: 110%;
     text-transform: uppercase;
@@ -844,7 +844,7 @@ $transition05: all 0.5s ease-in-out;
     &_adv{
         font-size: 78px; 
         line-height: 90px;
-        margin: 10px 0;;
+        margin: 20px 0;;
         strong{
             font-weight: 700; 
         }
@@ -2560,16 +2560,16 @@ body.oh {
     }
     &__more {
         color: #FFD508;
-        font-size: 22px;
+        font-size: 18px;
         font-weight: 700;
-        line-height: 34px;
-        margin: 0 0 30px;
+        line-height: 140%;
+        margin: 0 0 20px;
     }
     &__res {
         color: #FFF;
-        font-size: 22px;
+        font-size: 18px;
         font-weight: 400;
-        line-height: 30px; 
+        line-height: 140%; 
         margin: 0;
         strong{
             font-weight: 700;
@@ -2598,7 +2598,7 @@ body.oh {
         display: inline-flex;
         align-items: center;
         color: #FFF;
-        font-size: 21px;
+        font-size: 20px;
         font-weight: 500;
         line-height: 34px;
         text-transform: uppercase; 
@@ -2647,7 +2647,7 @@ body.oh {
     &__list{
         margin: 0 0 54px;
         li{
-            font-size: 28px;
+            font-size: 20px;
             font-style: normal;
             font-weight: 500;
             line-height: 24px; 
@@ -2668,7 +2668,7 @@ body.oh {
     }
     &__desc {
         color: #272727;
-        font-size: 28px;
+        font-size: 25px;
         font-weight: 500;
         line-height: normal; 
         margin-bottom: 54px;
@@ -2810,7 +2810,7 @@ body.oh {
     &__list {
         margin: 0;
         li{
-            font-size: 20px;
+            font-size: 18px;
             font-weight: 600;
             line-height: 22px;
             margin-bottom: 20px;
