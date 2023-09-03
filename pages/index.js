@@ -220,23 +220,30 @@ $(document).click(function(event) {
 });
 
 $("#phone").mask("+7 (999) 999-99-99");
-//var isFormValid = true;
-$("#register-form").click(function(){
+
+$(".send_btn").click(function(){
     var isFormValid = true;
-	//alert('d');
     $(".input").each(function(){
         if ($.trim($(this).val()).length == 0){
             $(this).addClass("error");
             isFormValid = false;
+			//alert('qwe');
         }
         else{
             $(this).removeClass("error");
-			//$('.modal[data-attr="modal_form"]').removeClass('vis');
+			if(!isFormValid){
+				//$('.modal[data-attr="modal_confirm"]').addClass('vis');
+				//$('.modal[data-attr="modal_form"]').removeClass('vis');
+			}
 			//$('.modal[data-attr="modal_confirm"]').addClass('vis');
+			//$('.modal[data-attr="modal_form"]').removeClass('vis');
         }
     });
 
-    //if (!isFormValid) alert("Please fill in all the required fields (indicated by *)");
-
+    if (!isFormValid) alert("Please fill in the fields");
+	if(isFormValid){
+		$('.modal[data-attr="modal_confirm"]').addClass('vis');
+		$('.modal[data-attr="modal_form"]').removeClass('vis');
+	}
     return isFormValid;
 });
