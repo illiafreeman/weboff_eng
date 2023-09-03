@@ -209,8 +209,8 @@ $('.modal-wrap, .modal__close').on('click', function (e) {
 	$('.modal').removeClass('vis');
 });
 $('.send_btn').on('click', function (e) {
-	$('.modal[data-attr="modal_form"]').removeClass('vis');
-	$('.modal[data-attr="modal_confirm"]').addClass('vis');
+	//$('.modal[data-attr="modal_form"]').removeClass('vis');
+	//$('.modal[data-attr="modal_confirm"]').addClass('vis');
 });
 
 $(document).click(function(event) {
@@ -220,3 +220,23 @@ $(document).click(function(event) {
 });
 
 $("#phone").mask("+7 (999) 999-99-99");
+//var isFormValid = true;
+$("#register-form").click(function(){
+    var isFormValid = true;
+	//alert('d');
+    $(".input").each(function(){
+        if ($.trim($(this).val()).length == 0){
+            $(this).addClass("error");
+            isFormValid = false;
+        }
+        else{
+            $(this).removeClass("error");
+			//$('.modal[data-attr="modal_form"]').removeClass('vis');
+			//$('.modal[data-attr="modal_confirm"]').addClass('vis');
+        }
+    });
+
+    //if (!isFormValid) alert("Please fill in all the required fields (indicated by *)");
+
+    return isFormValid;
+});

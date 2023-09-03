@@ -2138,8 +2138,8 @@ video{
     &__text {
         font-size: 18px;
         line-height: 24px;
-        a{
-            color: #31B996;;
+        span{
+            //color: #31B996;;
             &:hover{
                 text-decoration: none;
             }
@@ -2411,21 +2411,17 @@ video{
                 width: 100%;
                 outline: none;
                 font-size: 20px; 
+                
+            
             }
-            &.error{
-                span{
+            .input.error{
+                border-color: #e80d0d;
+            }
+            .input.error+span.error__text{
+                display: block;
+                color: #e80d0d;
+                small{
                     color: #e80d0d;
-                    small{
-                        color: #e80d0d;
-                    }
-                }
-                input{
-                    border-color: #e80d0d;
-                }
-                .error__text{
-                    display: block;
-                    color: #e80d0d;
-                    margin-top: 10px;
                 }
             }
             .error__text{

@@ -2357,10 +2357,7 @@ video {
   font-size: 18px;
   line-height: 24px;
 }
-.review__text a {
-  color: #31B996;
-}
-.review__text a:hover {
+.review__text span:hover {
   text-decoration: none;
 }
 .review__text p {
@@ -2627,19 +2624,15 @@ video {
   outline: none;
   font-size: 20px;
 }
-.modal .formwrap label:not(.btn).error span {
-  color: #e80d0d;
-}
-.modal .formwrap label:not(.btn).error span small {
-  color: #e80d0d;
-}
-.modal .formwrap label:not(.btn).error input {
+.modal .formwrap label:not(.btn) .input.error {
   border-color: #e80d0d;
 }
-.modal .formwrap label:not(.btn).error .error__text {
+.modal .formwrap label:not(.btn) .input.error + span.error__text {
   display: block;
   color: #e80d0d;
-  margin-top: 10px;
+}
+.modal .formwrap label:not(.btn) .input.error + span.error__text small {
+  color: #e80d0d;
 }
 .modal .formwrap label:not(.btn) .error__text {
   display: none;
