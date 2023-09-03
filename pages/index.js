@@ -234,7 +234,7 @@ $(".send_btn").click(function(){
         }
     });
 
-    if (!isFormValid) alert("Please fill in the fields");
+    //if (!isFormValid) alert("Please fill in the fields");
 	if(isFormValid){
 		$('.modal[data-attr="modal_confirm"]').addClass('vis');
 		$('.modal[data-attr="modal_form"]').removeClass('vis');
