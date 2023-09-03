@@ -231,12 +231,6 @@ $(".send_btn").click(function(){
         }
         else{
             $(this).removeClass("error");
-			if(!isFormValid){
-				//$('.modal[data-attr="modal_confirm"]').addClass('vis');
-				//$('.modal[data-attr="modal_form"]').removeClass('vis');
-			}
-			//$('.modal[data-attr="modal_confirm"]').addClass('vis');
-			//$('.modal[data-attr="modal_form"]').removeClass('vis');
         }
     });
 
