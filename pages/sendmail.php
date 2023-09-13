@@ -5,19 +5,18 @@ require '../vendor/phpmailer/SMTP.php';
 require '../vendor/phpmailer/Exception.php';
 
 // Переменные, которые отправляет пользователь
-$name = $_POST['name'];
+//$name = $_POST['name'];
 $email = $_POST['email'];
 $phone = $_POST['phone'];
-$message = $_POST['message'];
+$website = $_POST['website'];
 
 // Формирование самого письма
 $title = "inquiry from web-site";
 $body = "
-<h2>Новое письмо</h2>
-<b>Имя:</b> $name<br><br>
-<b>Почта:</b> $email<br><br>
-<b>Тедлефон:</b> $phone<br><br>
-<b>Сообщение:</b> $message<br><br>
+<h2>Новое письмо EN</h2>
+<b>E-mail:</b> $email<br><br>
+<b>Телефон:</b> $phone<br><br>
+<b>website:</b> $website<br><br>
 ";
 
 // Настройки PHPMailer
@@ -26,20 +25,22 @@ try {
     $mail->isSMTP();
     $mail->CharSet = "UTF-8";
     $mail->SMTPAuth   = true;
-    //$mail->SMTPDebug = 2;
+    $mail->SMTPDebug = 2;
     $mail->Debugoutput = function($str, $level) {$GLOBALS['status'][] = $str;};
 
     // Настройки вашей почты
-    $mail->Host       = 'smtp.yandex.ru'; // SMTP сервера вашей почты
-    $mail->Username   = 'info@web-off.ru'; // Логин на почте
-    $mail->Password   = 'ztvdlkeagpgxhjmq'; // Пароль на почте
+    $mail->Host       = 'smtp.gmail.com'; // SMTP сервера вашей почты
+    $mail->Username   = 'my.spacecraft.music@gmail.com'; // Логин на почте
+    $mail->Password   = 'xnlanteirultoyhp'; // Пароль на почте
     $mail->SMTPSecure = 'ssl';
     $mail->Port       = 465;
-    $mail->setFrom('info@web-off.ru', 'web-off.ru'); // Адрес самой почты и имя отправителя
+    $mail->setFrom('my.spacecraft.music@gmail.com', 'web-off.com'); // Адрес самой почты и имя отправителя
 
     // Получатель письма
+    $mail->addAddress('darkjazzyak@yandex.ru');
     $mail->addAddress('afokina@web-off.ru');
-    $mail->addAddress('web-off-agency@yandex.ru'); // Ещё один, если нужен
+    $mail->addAddress('fokina.nas@yandex.ru'); // Ещё один, если нужен
+    $mail->addAddress('info@web-off.com'); // Ещё один, если нужен
 
     // Прикрипление файлов к письму
 // if (!empty($file['name'][0])) {
@@ -69,4 +70,4 @@ else {$result = "error";}
 }
 
 // Отображение результата
-echo json_encode(["result" => $result, "status" => $status]);
+echo json_encode(["result" => $result, "status" => $mail]);

@@ -1,0 +1,16 @@
+.statystic__sites {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  max-width: 577px;
+  /* max-width: 450px; */
+  font-size: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .statystic__sites {
+    flex-direction: column-reverse;
+    margin-top: 21px;
+    max-width: 280px;
+  }
+}

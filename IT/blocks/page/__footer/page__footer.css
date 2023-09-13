@@ -1,0 +1,19 @@
+.page__footer {
+  padding: 0;
+  margin: 0 auto 0;
+  max-width: 1440px;
+  background-image: url('../../../images/back_footer_green.png'),
+                    url('../../../images/back_footer_yellow.png'),
+                    url('../../../images/back_footer_red.png');
+  background-repeat: no-repeat;
+  background-position: left 0 bottom 61px, right 0 top 62px, right 0 bottom 54px;
+}
+
+@media screen and (max-width: 768px) {
+  .page__footer{
+    border-top: 3px solid #FFF;
+    background-image: url('../../../images/back_footer_red_mobile.png'),
+                      url('../../../images/back_footer_green_mobile.png');
+    background-position: right 0 top 140px, left 0 bottom 0;
+  }
+}

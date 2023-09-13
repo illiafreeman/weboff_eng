@@ -1,0 +1,15 @@
+.page__wrapper {
+  margin: 0 auto 0;
+  padding: 0;
+  max-width: 1440px;
+  position: relative;
+  background-image: url('../../../images/back_intro_green.png');
+  background-repeat: no-repeat;
+  background-position: right 0 top 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .page__wrapper {
+    background-image: url('../../../images/back_intro_green_mobile.png');
+  }
+}

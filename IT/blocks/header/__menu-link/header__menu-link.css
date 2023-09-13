@@ -1,0 +1,22 @@
+.header__menu-link {
+  margin: 0;
+  padding: 0;
+  color: #FFF;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  opacity: 0.6;
+}
+
+.header__menu-link:hover {
+  opacity: 1;
+  transition: opacity .3s;
+}
+
+@media screen and (max-width: 768px) {
+  .header__menu-link {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}

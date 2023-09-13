@@ -1,0 +1,17 @@
+.form__input-field_type_text {
+ margin-bottom: 16px;
+ resize: none;
+ overflow: hidden;
+ display: block;
+ min-height: 277px;
+ border-radius: 40px;
+ padding-top: 27px;
+}
+
+@media screen and (max-width: 768px) {
+  .form__input-field_type_text {
+    min-height: 180px;
+    padding-top: 18px;
+    border-radius: 20px;
+  }
+}

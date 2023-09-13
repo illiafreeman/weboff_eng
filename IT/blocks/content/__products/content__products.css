@@ -1,0 +1,15 @@
+.content__products {
+  margin: 0 12px 0;
+  padding: 0;
+  background-color: #65DBBD;
+  border-radius: 75px;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .content__products {
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 30px;
+  }
+}

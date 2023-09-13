@@ -1,0 +1,21 @@
+.projects__grid {
+  margin: 0 118px 82px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 26px;
+  grid-template-areas:
+  "link-left link-center link-right";
+}
+
+@media screen and (max-width: 768px) {
+  .projects__grid {
+    margin: 0 6.3% 32px;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "link-right"
+    "link-center"
+    "link-left";
+  }
+}

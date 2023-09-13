@@ -1,0 +1,21 @@
+.content__intro {
+  margin: 0;
+  padding: 120px 130px 192px;
+  background-image: url('../../../images/back_intro_red.png'),
+    url('../../../images/back_intro_yellow.png');
+  background-repeat: no-repeat;
+  background-position: left 0 top 38%, left 60% top 399px;
+  background-size: auto auto;
+  position: relative;
+  /* for green spot */
+}
+
+@media screen and (max-width: 768px) {
+  .content__intro {
+    padding: 120px 6.3% 153px;
+    background-image: url('../../../images/back_intro_red_mobile.png'),
+      url('../../../images/back_intro_yellow_mobile.png');
+    background-repeat: no-repeat;
+    background-position: left 0 bottom 18px, right 9% bottom 41px;
+  }
+}

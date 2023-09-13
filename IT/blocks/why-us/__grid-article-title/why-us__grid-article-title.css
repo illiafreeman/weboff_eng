@@ -1,0 +1,16 @@
+.why-us__grid-article-title {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  text-transform: uppercase;
+  grid-area: title;
+}
+
+@media screen and (max-width: 768px) {
+  .why-us__grid-article-title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}

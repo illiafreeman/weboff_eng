@@ -1,0 +1,10 @@
+.statystic__questions {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .statystic__questions {
+    flex-direction: column;
+  }
+}

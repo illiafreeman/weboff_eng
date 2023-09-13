@@ -1,0 +1,11 @@
+.offer__we-offer {
+  margin: 145px 55px 145PX 118px;
+  max-width: 580px;
+}
+
+@media screen and (max-width: 768px) {
+  .offer__we-offer {
+    margin: 32px 6.3% 16px;
+    max-width: 100%;
+  }
+}

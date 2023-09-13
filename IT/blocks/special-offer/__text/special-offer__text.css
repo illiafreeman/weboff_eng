@@ -1,0 +1,17 @@
+.special-offer__text {
+  padding: 0;
+  margin: 0 auto 20px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  max-width: 480px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .special-offer__text {
+    font-size: 14px;
+    line-height: 16px;
+    max-width: 237px;
+  }
+}

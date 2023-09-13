@@ -1,0 +1,20 @@
+.content__why-us {
+ margin: 0;
+ padding: 102px 172px 102px 130px;
+ background-image: url('../../../images/back_why-we_green.png'),
+                   url('../../../images/back_why-we_red.png'),
+                   url('../../../images/back_why-we_yellow.png');
+background-repeat: no-repeat;
+background-position: left 80% top 38px, left 0 top 373px, right 0 top 475px;
+}
+
+@media screen and (max-width: 768px) {
+  .content__why-us {
+    padding: 63px 6.3%;
+    background-image: url('../../../images/back_why-we_green_top_mobile.png'),
+                      url('../../../images/back_why-we_yellow_mobile.png'),
+                      url('../../../images/back_why-we_red_mobile.png'),
+                      url('../../../images/back_why-we_green_bottom_mobile.png');
+    background-position: right 8.4% top 11px, left 0 top 386px, right 0 bottom 220px, left 0 bottom 0;
+  }
+}

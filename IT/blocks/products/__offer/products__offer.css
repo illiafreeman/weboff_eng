@@ -1,0 +1,27 @@
+.products__offer {
+  margin-left: 33px;
+  padding-right: 51px;
+  border-right: 3px solid #272727;
+}
+
+.products__offer:last-of-type {
+  border-right: none;
+  padding-right: 0;
+}
+
+.products__offer:first-of-type {
+  margin-left: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .products__offer {
+      margin-left: 0;
+      margin-top: 38px;
+      padding-right: 0;
+      border-right: none;
+      border-bottom: 3px solid #272727;
+  }
+  .products__offer:last-of-type {
+    border-bottom: none;
+  }
+}

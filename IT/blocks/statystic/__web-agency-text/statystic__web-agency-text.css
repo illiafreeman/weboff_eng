@@ -1,0 +1,14 @@
+.statystic__web-agency-text {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+@media screen and (max-width: 768px) {
+  .statystic__web-agency-text {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}

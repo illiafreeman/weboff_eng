@@ -34,7 +34,7 @@ function handleCloseMenu() {
 	closeButton.classList.remove('header__close-button_visible');
 	menu.classList.remove('header__menu_visible');
 }
-	
+
 	/*scroll to top*/
 	var scrollTop = $(".scrollTop");
 	$(window).scroll(function() {
@@ -53,12 +53,12 @@ function handleCloseMenu() {
 	});
 	/*end scroll to top*/
 
-	
+
 	$( window ).on( "load", function() {
 		$('.marquee').simplemarquee({
 			speed: 100,
-			cycles: 'Infinity', 
-			delayBetweenCycles: 0, 
+			cycles: 'Infinity',
+			delayBetweenCycles: 0,
 			handleHover: false
 		});
 
@@ -70,16 +70,16 @@ function handleCloseMenu() {
 		// 	hoverStop: false
 		// });
 
-		
-	
+
+
 		// $('.string').marquee({
 		// 	duplicated: true
 		// });
 
-		
-		
+
+
 	});
-	$('#pro').slick({     
+	$('#pro').slick({
         slidesToShow: 3,
         dots: false,
         arrows: true,
@@ -107,7 +107,7 @@ function handleCloseMenu() {
                     //focusOnSelect: true,
 					//adaptiveHeight: true,
 				}
-            },    
+            },
 			{
 				breakpoint: 768,
 					settings: {
@@ -116,10 +116,10 @@ function handleCloseMenu() {
 						centerMode: true,
 						arrows: false,
 					}
-			},              
+			},
         ]
     });
-	$('#slick').slick({     
+	$('#slick').slick({
         slidesToShow: 2,
         dots: true,
         arrows: true,
@@ -149,10 +149,10 @@ function handleCloseMenu() {
                     //focusOnSelect: true,
 					//adaptiveHeight: true,
 				}
-            }                  
+            }
         ]
     });
-	$('#slick2').slick({     
+	$('#slick2').slick({
         slidesToShow: 3,
         dots: false,
         arrows: true,
@@ -219,25 +219,74 @@ $(document).click(function(event) {
 	}
 });
 
-$("#phone").mask("+7 (999) 999-99-99");
+// $("#phone").mask("+7 (999) 999-99-99");
 
-$(".send_btn").click(function(){
-    var isFormValid = true;
-    $(".input").each(function(){
-        if ($.trim($(this).val()).length == 0){
-            $(this).addClass("error");
-            isFormValid = false;
-			//alert('qwe');
-        }
-        else{
-            $(this).removeClass("error");
-        }
-    });
+//form handle with ajax and php
+let button = document.querySelector('.send_btn');
+let formElement = document.querySelector('.modal__form_forlistener');
+button.addEventListener('click', handleClick);
+function handleClick() {
+  let email = document.querySelector('#email').value;
+  let phone = document.querySelector('#phone').value;
+  let website = document.querySelector('#website').value;
+  //let message = document.querySelector('#message').value;
 
-    //if (!isFormValid) alert("Please fill in the fields");
-	if(isFormValid){
-		$('.modal[data-attr="modal_confirm"]').addClass('vis');
-		$('.modal[data-attr="modal_form"]').removeClass('vis');
-	}
-    return isFormValid;
-});
+  $.ajax({
+    url: 'pages/sendmail.php',
+    type: 'POST',
+    cache: false,
+    data: {'website': website, 'email': email, 'phone': phone}, //'message': message},
+    beforeSend: function() {
+      button.setAttribute('disabled', true);
+    },
+    success: function() {
+      button.removeAttribute('disabled');
+      var isFormValid = true;
+      $(".input").each(function(){
+          if ($.trim($(this).val()).length == 0){
+              $(this).addClass("error");
+              isFormValid = false;
+              //alert('qwe');
+          }
+          else{
+              $(this).removeClass("error");
+          }
+      });
+
+      //if (!isFormValid) alert("Please fill in the fields");
+      if(isFormValid){
+          $('.modal[data-attr="modal_confirm"]').addClass('vis');
+          $('.modal[data-attr="modal_form"]').removeClass('vis');
+          formElement.reset();
+      }
+      return isFormValid;
+    },
+    error: function() {
+      button.removeAttribute('disabled');
+      formElement.reset();
+      alert('Sorry, something went wrong...');
+    }
+  });
+}
+
+
+// $(".send_btn").click(function(){
+//     var isFormValid = true;
+//     $(".input").each(function(){
+//         if ($.trim($(this).val()).length == 0){
+//             $(this).addClass("error");
+//             isFormValid = false;
+// 			//alert('qwe');
+//         }
+//         else{
+//             $(this).removeClass("error");
+//         }
+//     });
+
+//     //if (!isFormValid) alert("Please fill in the fields");
+// 	if(isFormValid){
+// 		$('.modal[data-attr="modal_confirm"]').addClass('vis');
+// 		$('.modal[data-attr="modal_form"]').removeClass('vis');
+// 	}
+//     return isFormValid;
+// });

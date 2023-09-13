@@ -1,0 +1,15 @@
+.team__picture-text-role {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 34px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .team__picture-text-role {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}

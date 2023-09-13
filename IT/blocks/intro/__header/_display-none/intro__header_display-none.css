@@ -1,0 +1,9 @@
+.intro__header_display-none {
+  visibility: hidden;
+}
+
+@media screen and (min-width: 769px) {
+  .intro__header_display-none {
+    visibility: visible;
+  }
+}

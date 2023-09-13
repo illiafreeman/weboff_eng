@@ -1,0 +1,16 @@
+.statystic__sites-formula {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: center;
+  margin: 8px 0 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .statystic__sites-formula {
+    font-size: 12px;
+    line-height: 24px;
+    margin-top: 5px;
+  }
+}

@@ -1,0 +1,17 @@
+.projects__link {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 34px;
+  color: #FFF;
+}
+
+@media screen and (max-width: 768px) {
+  .projects__link {
+    font-size: 14px;
+    line-height: 16px;
+    justify-self: center;
+  }
+}

@@ -1,0 +1,14 @@
+.offer__empty-mobile-bottom {
+  display: none
+}
+
+@media screen and (max-width: 768px) {
+  .offer__empty-mobile-bottom {
+    display: block;
+    border-right: 2px solid #272727;
+    border-left: 2px solid #272727;
+    border-top: 2px solid #272727;
+    height: 20px;
+    margin: 0 6.3%;
+  }
+}

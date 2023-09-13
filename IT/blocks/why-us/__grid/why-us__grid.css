@@ -1,0 +1,22 @@
+.why-us__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  column-gap: 51px;
+  row-gap: 65px;
+  grid-template-areas:
+  "one two"
+  "three four";
+}
+
+@media screen and (max-width: 768px) {
+  .why-us__grid {
+    grid-template-columns: 1fr;
+    row-gap: 46px;
+    grid-template-areas:
+    "one"
+    "two"
+    "three"
+    "four"
+  }
+}
