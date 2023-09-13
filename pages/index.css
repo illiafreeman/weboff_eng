@@ -3225,6 +3225,19 @@ body.oh {
   visibility: hidden;
 }
 
+.inner header {
+  padding: 40px 0;
+}
+.inner__logo {
+  width: 100px;
+  margin: 0 auto;
+  display: block;
+}
+.inner__content {
+  width: 600px;
+  padding: 20px;
+  margin: 0 auto;
+}
 @media screen and (max-width: 1700px) {
   .stage {
     overflow: hidden;

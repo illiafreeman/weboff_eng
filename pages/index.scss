@@ -3032,6 +3032,31 @@ body.oh {
         visibility: hidden;
     }
 }
+.inner {
+    header{
+        padding: 40px 0;
+    }
+    &__logo {
+        width: 100px;
+        margin: 0 auto;
+        display: block;
+    }
+    &__content {
+        width: 600px;
+        padding: 20px;
+        margin: 0 auto;
+        h2{
+
+        }
+        h3{
+
+        }
+        p{
+
+        }
+    }
+}
+
 
 
 
