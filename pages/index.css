@@ -3129,6 +3129,7 @@ body.oh {
 .info__privacy {
   text-align: center;
   padding-top: 30px;
+  margin: 0;
 }
 .info__privacy a {
   position: relative;
@@ -5177,6 +5178,9 @@ body.oh {
   }
 }
 @media screen and (max-width: 480px) {
+  .cookie {
+    padding: 76px 30px 20px;
+  }
   .pro__desc {
     color: #fff;
     display: block;

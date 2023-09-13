@@ -760,6 +760,9 @@
 						<img src="./images/soc_wassap.png" alt="">
 					</a>
 				</nav>
+				<p class="info__privacy">
+					<a href="privacy.html">Privacy Policy</a>
+				</p>
 				<p class="info__copyright">&copy;&nbsp;2023 Web-off</p>
 			</section>
 		</div>
@@ -774,12 +777,12 @@
 						<form id="register-form" action="#" class="modal__form_forlistener">
 							<label >
 								<span>E-mail</span>
-								<input class="input" type="text" id="email" name="email">
+								<input class="input input_req" type="text" id="email" name="email">
 								<span class="error__text">Si prega di compilare il campo richiesto!</span>
 							</label>
 							<label>
 								<span>Telefono </span>
-								<input id="phone" class="input" type="tel" name="phone" autocomplete="off">
+								<input id="phone" class="input input_req" type="tel" name="phone" autocomplete="off">
 								<span class="error__text">Si prega di compilare il campo richiesto!</span>
 							</label>
 							<label>
@@ -788,6 +791,8 @@
 								<span class="error__text">Si prega di compilare il campo richiesto!</span>
 							</label>
 							<button type="submit" class="btn btn_yellow send_btn">Invia!</button>
+							<div class="privacy">Premendo "Invia richiesta" accetti la nostra <a target="_blank" href="privacy.html">Privacy Policy</a></div>
+
 						</form>
 					</div>
 					<div class="modal__close">
@@ -810,6 +815,22 @@
 						</svg>
 					</div>
 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="cookie">
+		<div class="cookie__close">
+			<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M1 1L13 13M13 13L25 25M13 13L25 1M13 13L1 25" stroke="#272727" stroke-width="2" />
+			</svg>
+		</div>
+		<div class="cookie__body">
+			<p class="cookie__text">
+				Noi utilizziamo cookie o tecnologie simili per finalità tecniche come specificato nella <a target="_blank" href="privacy.html">cookie&nbsp;policy</a>
+			</p>
+			<div class="cookie__btnwrap">
+				<button class="btn btn_min btn_white">Rifiuta</button>
+				<button class="btn btn_min">OK</button>
 			</div>
 		</div>
 	</div>

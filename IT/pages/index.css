@@ -2453,7 +2453,7 @@ video {
 }
 .lang a {
   color: #FFD508;
-  text-decoration: underline;
+  text-decoration: none;
   position: static;
   cursor: pointer;
 }
@@ -2461,17 +2461,20 @@ video {
   display: none;
 }
 .lang a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 .lang a.act {
-  text-decoration: none;
-  cursor: default;
+  text-decoration: underline;
+}
+.lang a.act:hover {
+  text-decoration: underline;
 }
 
 .btn {
   height: 74px;
   border-radius: 40px;
   background: #65DBBD;
+  border: 0;
   padding: 0 40px;
   color: #272727;
   font-size: 20px;
@@ -2992,7 +2995,7 @@ body.oh {
 .gift__title {
   font-size: 46px;
   font-weight: 700;
-  line-height: 88px; /* 191.304% */
+  line-height: 88px;
   text-transform: uppercase;
   margin: 0;
   white-space: nowrap;
@@ -3094,6 +3097,132 @@ body.oh {
 }
 .soc:hover {
   transform: scale(1.1);
+}
+
+.privacy {
+  color: #272727;
+  padding-top: 60px;
+  text-align: center;
+}
+.privacy a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: #58b9a0;
+}
+.privacy a:before {
+  content: "";
+  width: 100%;
+  left: 0;
+  height: 1px;
+  position: absolute;
+  bottom: -3px;
+  background: #58b9a0;
+  transition: all 0.2s ease-in-out;
+}
+.privacy a:hover:before {
+  width: 0;
+  right: 0;
+  left: auto;
+}
+
+.info__privacy {
+  text-align: center;
+  padding-top: 30px;
+  margin: 0;
+}
+.info__privacy a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+}
+.info__privacy a:before {
+  content: "";
+  width: 100%;
+  left: 0;
+  height: 1px;
+  position: absolute;
+  bottom: -3px;
+  background: #fff;
+  transition: all 0.2s ease-in-out;
+}
+.info__privacy a:hover:before {
+  width: 0;
+  right: 0;
+  left: auto;
+}
+
+.cookie {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  box-shadow: 0 0 22px -1px #272727;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 40px 80px 20px;
+  width: 600px;
+  transition: all 0.5s ease-in-out;
+  z-index: 20000;
+}
+.cookie__close {
+  width: 30px;
+  height: 30px;
+  border-radius: 16px;
+  position: absolute;
+  top: 26px;
+  right: 26px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cookie__close svg {
+  width: 24px;
+  height: 24px;
+}
+.cookie__close:hover {
+  transform: rotate(180deg);
+}
+.cookie__body {
+  text-align: center;
+}
+.cookie__text {
+  color: #272727;
+  margin: 0 0 20px;
+  line-height: 1.4;
+}
+.cookie__text a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: #58b9a0;
+}
+.cookie__text a:before {
+  content: "";
+  width: 100%;
+  left: 0;
+  height: 1px;
+  position: absolute;
+  bottom: 0px;
+  background: #58b9a0;
+  transition: all 0.2s ease-in-out;
+}
+.cookie__text a:hover:before {
+  width: 0;
+  right: 0;
+  left: auto;
+}
+.cookie__btnwrap {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+.cookie.unvis {
+  opacity: 0;
+  visibility: hidden;
 }
 
 @media screen and (max-width: 1700px) {
@@ -3951,6 +4080,10 @@ body.oh {
   }
 }
 @media screen and (max-width: 768px) {
+  .cookie {
+    width: auto;
+    right: 10px;
+  }
   .modal__desc {
     font-size: 20px;
   }
@@ -5045,6 +5178,9 @@ body.oh {
   }
 }
 @media screen and (max-width: 480px) {
+  .cookie {
+    padding: 76px 30px 20px;
+  }
   .pro__desc {
     color: #fff;
     display: block;
