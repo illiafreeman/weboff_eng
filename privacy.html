@@ -167,30 +167,30 @@
 			<p>Users can exercise certain rights with reference to the Data processed by the Owner.</p>
 			<p>In particular, within the limits established by law, the User has the right to:</p>
 			<ul>
-				<li>revoke your consent at any time
+				<li>revoke your consent at any time;
 					<p>The User may revoke the previously expressed consent to the processing of their Personal Data.</p>
 				</li>
-				<li>object to the processing of their Data
+				<li>object to the processing of their Data;
 					<p>The User can object to the processing of their Data when it takes place by virtue of a legal basis other than consent.</p>
 				</li>
-				<li>access their Data
+				<li>access their Data;
 					<p>The User has the right to obtain information on the Data processed by the Owner, on certain aspects of the processing and to receive a copy of the Data processed.</p>
 				</li>
 				<li>
-					verify and request rectification
+					verify and request rectification;
 					<p>The User can verify the correctness of their Data and request its updating or correction.</p>
 				</li>
-				<li>obtain the limitation of treatment
+				<li>obtain the limitation of treatment;
 					<p>The User may request the limitation of the processing of their Data. In this case the Owner will not process the Data for any purpose other than their conservation.</p>
 				</li>
-				<li>obtain the cancellation or removal of your Personal Data
+				<li>obtain the cancellation or removal of your Personal Data;
 					<p>The User may request the deletion of their Data by the Owner.</p>
 				</li>
-				<li>receive your Data or have it transferred to another owner
+				<li>receive your Data or have it transferred to another owner;
 					<p>The User has the right to receive their Data in a structured, commonly used and machine-readable format and, where technically feasible, to obtain its transfer without obstacles to another owner.
 					</p>
 				</li>
-				<li>lodge a complaint
+				<li>lodge a complaint;
 					<p>The User can lodge a complaint with the competent personal data protection supervisory authority or take legal action.</p>
 				</li>
 			</ul>
@@ -244,6 +244,26 @@
 			</section>
 		</div>
 	</footer>
+	<script src="./vendor/jquery-3.6.0.min.js" type="text/javascript"></script>
+	<script>
+		/*scroll to top*/
+		var scrollTop = $(".scrollTop");
+		$(window).scroll(function () {
+			var topPos = $(this).scrollTop();
+			if (topPos > 500) {
+				$(scrollTop).addClass('vis');
+			} else {
+				$(scrollTop).removeClass('vis');
+			}
+		});
+		$(scrollTop).click(function () {
+			$('html, body').animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+		});
+		/*end scroll to top*/
+	</script>
 </body>
 
 </html>
