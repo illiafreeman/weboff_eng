@@ -2122,18 +2122,11 @@
     }
 
 
-
-
-
-
-
-
-
-
-
-
 }
 @media screen and (max-width: 600px) {
+    .inner__content {
+        width: 100%;
+    }
     .project {
         padding-top: 0;
       }

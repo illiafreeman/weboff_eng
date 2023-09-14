@@ -3051,7 +3051,10 @@ body.oh {
             text-transform: uppercase;
             font-weight: 600;
             padding-top: 90px;
-            margin: 0 0 30px
+            margin: 0 0 30px;
+            span{
+                white-space: nowrap;
+            }
         }
         h3{
             font-size: 20px;
