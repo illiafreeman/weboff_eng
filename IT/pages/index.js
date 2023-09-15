@@ -63,7 +63,7 @@ $(window).on("load", function () {
 	});
 
 	if ($(window).width() > 1023) {
-		//new WOW().init();
+		new WOW().init();
 	}
 
 	// $('.string').liMarquee({
