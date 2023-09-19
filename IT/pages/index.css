@@ -3259,7 +3259,7 @@ body.oh {
   margin: 0 0 16px;
 }
 .inner__content p:last-child {
-  margin: 0;
+  margin: 0 !important;
 }
 .inner__content ul {
   margin: 0 0 16px;

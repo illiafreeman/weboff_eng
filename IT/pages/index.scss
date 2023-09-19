@@ -3065,7 +3065,7 @@ body.oh {
         p{
             margin: 0 0 16px;
             &:last-child{
-                margin: 0;
+                margin: 0 !important;
             }
         }
         ul{
@@ -3091,8 +3091,6 @@ body.oh {
         }
     }
 }
-
-
 
 
 
