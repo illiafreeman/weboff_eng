@@ -429,7 +429,7 @@ $transition05: all 0.5s ease-in-out;
     max-width: 690px;
     margin: 0 0 28px 0;
     padding: 0;
-    font-size: 62px;
+    font-size: 82px;
     line-height: 74px;
     text-transform: uppercase;
     margin-bottom: 0;
@@ -448,7 +448,7 @@ $transition05: all 0.5s ease-in-out;
     font-size: 31px;
     font-style: normal;
     font-weight: 700;
-    line-height: 74px;
+    line-height: 46px;
     text-transform: uppercase; 
     margin: 0 0 16px;
 }
@@ -462,7 +462,7 @@ $transition05: all 0.5s ease-in-out;
     width: 460px;
 }
 
-.intro__header_display-none, .intro__subheader_display-none, .intro__btn_display-none {
+.intro__header_display-none, .intro__subheader_display-none, .intro__subsubheader_display-none, .intro__btn_display-none {
     visibility: hidden;
 }
 
