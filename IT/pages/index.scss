@@ -462,7 +462,8 @@ $transition05: all 0.5s ease-in-out;
     width: 460px;
 }
 
-.intro__header_display-none, .intro__subheader_display-none, .intro__btn_display-none {
+.intro__header_display-none, .intro__subheader_display-none, .intro__subsubheader_display-none,
+.intro__btn_display-none {
     visibility: hidden;
 }
 
@@ -1999,7 +2000,7 @@ video{
     margin: 84px 0 16px;
     max-width: none;
 }
-.form__description-text, .form__container-title, .form__container-inputs{
+.form__description-text, .form__container-title, .intro__subsubheader_display-none, .form__container-inputs{
     max-width: none;
 }
 .form__container {

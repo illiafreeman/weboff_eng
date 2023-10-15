@@ -709,7 +709,8 @@ template {
   width: 460px;
 }
 
-.intro__header_display-none, .intro__subheader_display-none, .intro__btn_display-none {
+.intro__header_display-none, .intro__subheader_display-none, .intro__subsubheader_display-none,
+.intro__btn_display-none {
   visibility: hidden;
 }
 
@@ -2215,7 +2216,7 @@ video {
   max-width: none;
 }
 
-.form__description-text, .form__container-title, .form__container-inputs {
+.form__description-text, .form__container-title, .intro__subsubheader_display-none, .form__container-inputs {
   max-width: none;
 }
 
@@ -6813,6 +6814,15 @@ body.oh {
   }
 }
 @media screen and (max-width: 600px) {
+  .intro__subsubheader {
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin: 0 0 16px;
+  }
   .inner__content {
     width: 100%;
   }
